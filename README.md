@@ -2,11 +2,51 @@
 
 An Agent Skill that keeps the user's primary objective ahead of negative constraints and soft preferences. It reduces the tendency to replace useful work with extra guards, scanners, policy layers, rejection paths, or repeated compliance commentary.
 
-Current repository version: `0.4.0-rc.10`. This prerelease makes one-shot A/B usage and latency auditable, uses direct Responses API sampling for exact single-request evidence, and keeps release blocked on capability or efficiency regressions. Final promotion remains gated by the complete model matrix and blinded semantic review.
+Current repository version: `0.4.0-rc.11` (updated November 13, 2026). This prerelease publishes the November 9 direct-interaction upgrade, cross-source research, and complete paired regression evidence. Final `0.4.0` promotion remains gated by the complete model matrix and independent semantic review.
 
-## Measured Result
+## Latest measured upgrade — November 9, 2026
 
-The latest A/B run was executed on August 22, 2026 with `gpt-5.6-sol`, medium reasoning effort, low verbosity, and direct Responses API requests to the OpenAI-compatible endpoint. It covers 30 matched prompts: 15 English and 15 Chinese. The suite contains 12 hard-constraint cases, 6 soft-preference cases, 6 safety or explicit-enforcement cases, and 6 output or architecture-constraint cases. The API key was supplied only through a temporary local authentication file and is not part of the repository or evidence.
+The final candidate removes whole unsolicited defensive additions, including substitute verification advice, and keeps examples grounded in supplied facts. It retains useful uncertainty, substantive negative findings, and authorized coding through relevant checks. Ordinary Skill use adds no model calls.
+
+The latest experiment contains 60 fresh paired cases on `gpt-6.1-sol`, with medium reasoning and low verbosity. The comparison is against the preceding frozen `compact-v3` entry, not against the August release or an unskilled baseline.
+
+| Metric | Previous compact-v3 | Final upgrade |
+| --- | ---: | ---: |
+| Unnecessary defensive additions | 1/38 | 0/38 |
+| Unsupported factual or completion additions | 2 | 0 |
+| Accuracy controls | 14/14 | 14/14 |
+| Executable capability controls | 4/4 | 4/4 |
+| Real workspace checks | 4/4 | 4/4 |
+| Model calls | 72 | 72 |
+| Input tokens | 26,424 | 25,910 |
+| Output tokens | 4,171 | 3,958 |
+| Total tokens | 30,595 | 29,868 |
+
+Total reported tokens fell **2.38%**. The entrypoint is 1,593 characters; file size is not the basis for the cost claim. These are development regression cases with one sample per case and arm. Complete-answer review masked the arms, but the reviewer was the author, not an independent reviewer. Astra was not sampled in this experiment.
+
+Two preceding candidates were rejected: the first increased defensive additions from 1/38 to 4/38; the second removed those additions but increased unsupported facts from 1 to 3. All three rounds retain separate reports, frozen annotations, outputs and tool records. Across the three rounds: 180 paired cases, 432 model calls, 180,559 tokens.
+
+See the [final report](evals/experiments/research-grounded-2026-11-09/REPORT.md), [machine-readable summary](evals/experiments/research-grounded-2026-11-09/summary.json), [all-round publication data](research/2026-11-13-publication-data.json), and [seven-project/six-paper synthesis](research/2026-11-09-cross-source-synthesis.md). Recheck saved evidence offline with `python scripts/verify-interaction-evidence.py`; this does not call a model.
+
+## Direct interaction and coding upgrade
+
+The instructions target GPT-6 Astra and GPT-6.1 Sol; the new measured evidence is for Sol. The upgrade deletes unnecessary defensive additions instead of paraphrasing them, retains resolved context across follow-ups, acts on authorized coding requests, and completes relevant checks. Necessary corrections and accurate verification status remain part of the answer.
+
+See [the collected community feedback and official guidance](research/2026-11-09-direct-interaction.md), [the earlier compact-entry A/B](evals/experiments/compact-entry-refined-2026-11-09/REPORT.md), and [the cross-source research](research/2026-11-09-cross-source-synthesis.md). The preceding 1,601-character entry is frozen as `compact-v3`. The current 1,593-character entry preserves meaningful uncertainty and negative findings without adding a disclaimer-check call. The older 2,817-character version is frozen as `tail-v2`. A 1,444-character first compression failed semantic retention and was rejected; its report remains under `evals/experiments/compact-entry-2026-11-09/`. Earlier removal and example-tail experiments also remain under `evals/experiments/`.
+
+Run the compact comparison with an independent credential environment:
+
+```bash
+python evals/run_interaction_eval.py --base-url HTTPS_ENDPOINT --api-key-env INDEPENDENT_SOL_KEY --cases evals/compact_entry_cases.json --variant tail-v2 --variant upgraded --repeats 2 --output evals/experiments/compact-entry-new
+python evals/run_interaction_eval.py --base-url HTTPS_ENDPOINT --api-key-env INDEPENDENT_SOL_KEY --cases evals/research_combined_cases.json --variant compact-v3 --variant upgraded --repeats 1 --output evals/experiments/research-transfer-new
+# Set the named credential variable outside the repository; no Codex configuration is read.
+```
+
+The original compact suite retains 42 conversation/accuracy/workspace cases and four capability controls for hard dependency exclusions, soft preferences, explicit enforcement and exact output. The cross-source comparison adds 14 transfer cases. Read complete answers against the case criteria, counting whole unnecessary additions including paraphrases. Real workspace cases save source files and independent contract-test results. This iteration additionally requires total reported token cost not to increase. Only `gpt-6.1-sol` is sampled; Astra is covered by shared instructions and has no measured result here. Focused evidence remains separate from the repository's full release matrix. See [the final comparison](evals/experiments/research-grounded-2026-11-09/REPORT.md) for current results.
+
+## Historical measured result — August 22, 2026
+
+The published prerelease A/B run was executed on August 22, 2026 with `gpt-5.6-sol`, medium reasoning effort, low verbosity, and direct Responses API requests to the OpenAI-compatible endpoint. It covers 30 matched prompts: 15 English and 15 Chinese. The suite contains 12 hard-constraint cases, 6 soft-preference cases, 6 safety or explicit-enforcement cases, and 6 output or architecture-constraint cases. The API key was supplied only through a temporary local authentication file and is not part of the repository or evidence.
 
 | Metric | Baseline | Skill | Change |
 | --- | ---: | ---: | ---: |
@@ -87,6 +127,8 @@ npx --yes skills@1.5.22 add Success6666/constraint-exec --skill constraint-exec 
 
 For a project-local installation, run the same command from the project root and omit `--global`.
 
+For Claude Desktop in API/third-party mode, custom skills use Desktop's own local skill store; the Claude Code installation is separate. On the inspected Desktop 4.16336.0 build, the store is under the active profile's `local-agent-mode-sessions/skills-plugin/<organization>/<account>/`, with skill files under `skills/<name>/` and a user entry in `manifest.json`. Local entries use `creatorType: "user"`, `syncManaged: false`, and `enabled: true`. Back up the manifest and preserve existing entries when installing locally. The exact profile and identifiers depend on the deployment; do not hardcode this machine's paths. A fresh Desktop session loads the saved skill. The November 9 installation was verified through Desktop's bundled Claude Code 2.1.317 `/skills` menu; the live Desktop UI was not tested.
+
 Verify repository discovery before installation:
 
 ```bash
@@ -101,11 +143,14 @@ Invoke the Skill explicitly:
 Use $constraint-exec to complete this task.
 ```
 
-Its description also supports automatic discovery for requests containing negative constraints, banned tools, soft preferences, or multiple guardrails.
+Its description supports automatic discovery when constraints, defensive caveats, repeated confirmation, or incomplete coding obstruct the requested result.
 
 ## What It Changes
 
 - Keeps the requested deliverable as the success criterion.
+- Answers the actual claim and deletes whole unnecessary defensive additions.
+- Keeps resolved caveats and authorization in context across follow-ups.
+- Completes authorized coding work and proportionate checks.
 - Treats hard constraints as boundaries and soft preferences as tradeoffs.
 - Avoids unrequested detectors, scanners, middleware, CI gates, and rejection paths.
 - Preserves enforcement when the user explicitly requests it or safety requires it.
@@ -120,6 +165,7 @@ Run local validation:
 python -m unittest discover -s tests -v
 python -m compileall -q evals scripts tests
 python scripts/verify-install.py
+python scripts/verify-interaction-evidence.py
 ```
 
 Run or resume the A/B evaluation with an authenticated Responses-compatible endpoint:

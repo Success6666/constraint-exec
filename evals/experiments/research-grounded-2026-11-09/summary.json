@@ -1,0 +1,42 @@
+{
+  "compact-v3": {
+    "unnecessary_defense": 1,
+    "defense_denominator": 38,
+    "fact_errors": 2,
+    "fact_error_cases": [
+      "example-style-zh",
+      "blame-impression-zh"
+    ],
+    "defense_cases": [
+      "blame-impression-zh"
+    ],
+    "accuracy_pass": 14,
+    "accuracy_total": 14,
+    "workspace_pass": 4,
+    "workspace_total": 4,
+    "calls": 72,
+    "input_tokens": 26424,
+    "output_tokens": 4171,
+    "total_tokens": 30595,
+    "capability_pass": 4,
+    "capability_total": 4
+  },
+  "upgraded": {
+    "unnecessary_defense": 0,
+    "defense_denominator": 38,
+    "fact_errors": 0,
+    "fact_error_cases": [],
+    "defense_cases": [],
+    "accuracy_pass": 14,
+    "accuracy_total": 14,
+    "workspace_pass": 4,
+    "workspace_total": 4,
+    "calls": 72,
+    "input_tokens": 25910,
+    "output_tokens": 3958,
+    "total_tokens": 29868,
+    "capability_pass": 4,
+    "capability_total": 4
+  },
+  "adopted": true
+}

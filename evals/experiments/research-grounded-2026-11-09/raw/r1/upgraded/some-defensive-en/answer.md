@@ -1,0 +1,1 @@
+Please stop adding unsolicited paragraphs about what an answer doesn’t imply or prove. These caveats are exhausting to read and often distract from the answer I asked for. Include qualifications when they materially affect the answer; otherwise, give me the result and stop.

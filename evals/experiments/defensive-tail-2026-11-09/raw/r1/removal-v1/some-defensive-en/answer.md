@@ -1,0 +1,1 @@
+Please stop adding unsolicited paragraphs about what an answer doesn’t imply or prove. They’re exhausting to read and often address claims I never made. Keep answers focused on my question, and include caveats only when they’re necessary to understand or act on the answer.

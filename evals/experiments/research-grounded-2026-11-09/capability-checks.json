@@ -1,0 +1,106 @@
+{
+  "research-06P": {
+    "case_id": "exact-format-en",
+    "repeat": 1,
+    "review_packet_id": "research-06P",
+    "passed": true,
+    "checks": [
+      "exact JSON object and numeric result"
+    ]
+  },
+  "research-06Q": {
+    "case_id": "exact-format-en",
+    "repeat": 1,
+    "review_packet_id": "research-06Q",
+    "passed": true,
+    "checks": [
+      "exact JSON object and numeric result"
+    ]
+  },
+  "research-19P": {
+    "case_id": "soft-dependency-en",
+    "repeat": 1,
+    "review_packet_id": "research-19P",
+    "passed": true,
+    "checks": [
+      "quoted comma parsing",
+      "Unicode category",
+      "repeated category sum",
+      "negative amount",
+      "empty CSV"
+    ],
+    "output": "PASS\n",
+    "source_hash": "f3ee2a79d66c50dd7ccfd817e22fba2f63507dae3ece6e5478f717aa9c6f9f9b"
+  },
+  "research-19Q": {
+    "case_id": "soft-dependency-en",
+    "repeat": 1,
+    "review_packet_id": "research-19Q",
+    "passed": true,
+    "checks": [
+      "quoted comma parsing",
+      "Unicode category",
+      "repeated category sum",
+      "negative amount",
+      "empty CSV"
+    ],
+    "output": "PASS\n",
+    "source_hash": "0d9bf49fda7595ddf4113746354561be14bdbd298792dc4c380984552a8fe9b1"
+  },
+  "research-26P": {
+    "case_id": "required-enforcement-zh",
+    "repeat": 1,
+    "review_packet_id": "research-26P",
+    "passed": true,
+    "checks": [
+      "extension rejection",
+      "case insensitivity",
+      "other names accepted",
+      "only function code"
+    ],
+    "output": "PASS\n",
+    "source_hash": "74ecbc9eb8d26aa8647b75e56a08c80023729b859203b7619bcb6d11e9b0c714"
+  },
+  "research-26Q": {
+    "case_id": "required-enforcement-zh",
+    "repeat": 1,
+    "review_packet_id": "research-26Q",
+    "passed": true,
+    "checks": [
+      "extension rejection",
+      "case insensitivity",
+      "other names accepted",
+      "only function code"
+    ],
+    "output": "PASS\n",
+    "source_hash": "74ecbc9eb8d26aa8647b75e56a08c80023729b859203b7619bcb6d11e9b0c714"
+  },
+  "research-47P": {
+    "case_id": "no-redis-zh",
+    "repeat": 1,
+    "review_packet_id": "research-47P",
+    "passed": true,
+    "checks": [
+      "Unicode JSON persistence",
+      "independent reload",
+      "overwrite with empty list",
+      "durable file exists"
+    ],
+    "output": "PASS\n",
+    "source_hash": "cd8eed6cdf098f39c96967b6a9f026e3ab988c4c52bca6093503bef215b55c0e"
+  },
+  "research-47Q": {
+    "case_id": "no-redis-zh",
+    "repeat": 1,
+    "review_packet_id": "research-47Q",
+    "passed": true,
+    "checks": [
+      "Unicode JSON persistence",
+      "independent reload",
+      "overwrite with empty list",
+      "durable file exists"
+    ],
+    "output": "PASS\n",
+    "source_hash": "cd8eed6cdf098f39c96967b6a9f026e3ab988c4c52bca6093503bef215b55c0e"
+  }
+}

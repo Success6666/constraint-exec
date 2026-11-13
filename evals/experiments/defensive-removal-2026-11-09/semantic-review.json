@@ -1,0 +1,1019 @@
+{
+  "method": "Primary-agent manual semantic review of complete outputs; one reviewer, unblinded. Quotes are checked against raw answers. No word-count or banned-word scoring.",
+  "rubric": "Count an unasked qualification after task content, a suggested replacement with unrequested verification boundaries, or a redundant qualification after an explicitly hypothetical template. Relevant factual correction, requested risk assessment, quotation analysis and ordinary instructions for necessary permissions are excluded.",
+  "reviewed_rows": 112,
+  "summary": {
+    "previous": {
+      "focal_responses": 40,
+      "with_unnecessary_addition": 8,
+      "incidence": 0.2,
+      "direct_scope_or_verification_reminders": 3,
+      "accuracy_controls_passed": 8,
+      "workspace_contracts_passed": 8,
+      "complete_responses": 56,
+      "input_tokens": 36644,
+      "output_tokens": 5383
+    },
+    "upgraded": {
+      "focal_responses": 40,
+      "with_unnecessary_addition": 2,
+      "incidence": 0.05,
+      "direct_scope_or_verification_reminders": 0,
+      "accuracy_controls_passed": 8,
+      "workspace_contracts_passed": 8,
+      "complete_responses": 56,
+      "input_tokens": 42780,
+      "output_tokens": 4902
+    }
+  },
+  "reviews": [
+    {
+      "case_id": "blame-impression-en",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": [
+        {
+          "quote": "it should have stated their scope and any specific untested cases",
+          "kind": "caveat-replacement-advice",
+          "reason": "把无关防御句改成未测试场景说明，延续了用户未请求的边界说明。"
+        }
+      ]
+    },
+    {
+      "case_id": "blame-impression-en",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "blame-impression-zh",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": [
+        {
+          "quote": "边界应该说成具体的“没测什么”，而不是泛泛的“不保证什么”。",
+          "kind": "caveat-replacement-advice",
+          "reason": "这是用户指出的换措辞式处理，仍保留无关边界附加内容。"
+        }
+      ]
+    },
+    {
+      "case_id": "blame-impression-zh",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": [
+        {
+          "quote": "——前提是这些检查确实做过。",
+          "kind": "template-qualification",
+          "reason": "已明确标作示例，再追加核验条件，核心说明删除此尾句仍完整。"
+        }
+      ]
+    },
+    {
+      "case_id": "csv-summary",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "artifact_contract_passed": true
+    },
+    {
+      "case_id": "csv-summary",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "artifact_contract_passed": true
+    },
+    {
+      "case_id": "decision-risk-zh",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "accuracy_control_passed": true
+    },
+    {
+      "case_id": "decision-risk-zh",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "accuracy_control_passed": true
+    },
+    {
+      "case_id": "demo-success-en",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "demo-success-en",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "demo-success-zh",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "demo-success-zh",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "fixed-feature-zh",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": [
+        {
+          "quote": "验证状态：依据你提供的测试结果确认，我未独立运行这些测试。",
+          "kind": "verification-reminder",
+          "reason": "已用“按你反馈”表明来源；用户问本次功能验收，没有请求独立复测。"
+        }
+      ]
+    },
+    {
+      "case_id": "fixed-feature-zh",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "necessary-correction-zh",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "accuracy_control_passed": true
+    },
+    {
+      "case_id": "necessary-correction-zh",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "accuracy_control_passed": true
+    },
+    {
+      "case_id": "persistent-todo",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "artifact_contract_passed": true
+    },
+    {
+      "case_id": "persistent-todo",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "artifact_contract_passed": true
+    },
+    {
+      "case_id": "quote-analysis-en",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "accuracy_control_passed": true
+    },
+    {
+      "case_id": "quote-analysis-en",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "accuracy_control_passed": true
+    },
+    {
+      "case_id": "ratio-fix",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "artifact_contract_passed": true
+    },
+    {
+      "case_id": "ratio-fix",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "artifact_contract_passed": true
+    },
+    {
+      "case_id": "repeat-permission-en",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "repeat-permission-en",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "repeat-permission-zh",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "repeat-permission-zh",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "resolved-sample-en",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "resolved-sample-en",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "resolved-sample-zh",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "resolved-sample-zh",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "rewrite-speed-en",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "rewrite-speed-en",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "rewrite-speed-zh",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": [
+        {
+          "quote": "整体性能还需结合其他请求一起评估。",
+          "kind": "scope-reminder",
+          "reason": "用户只问本次差值；范围提醒整句可删除。"
+        }
+      ]
+    },
+    {
+      "case_id": "rewrite-speed-zh",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "rewrite-tests-en",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "rewrite-tests-en",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "rewrite-tests-zh",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "rewrite-tests-zh",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "run-speed-en",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "run-speed-en",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "run-speed-zh",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "run-speed-zh",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "some-defensive-en",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "some-defensive-en",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "some-defensive-zh",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "some-defensive-zh",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "stable-dedup",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "artifact_contract_passed": true
+    },
+    {
+      "case_id": "stable-dedup",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "artifact_contract_passed": true
+    },
+    {
+      "case_id": "unasked-all-paths-zh",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "unasked-all-paths-zh",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "verification-gap-en",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "accuracy_control_passed": true
+    },
+    {
+      "case_id": "verification-gap-en",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "accuracy_control_passed": true
+    },
+    {
+      "case_id": "verified-cases-en",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "verified-cases-en",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "verified-cases-zh",
+      "repeat": 1,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "verified-cases-zh",
+      "repeat": 1,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "blame-impression-en",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": [
+        {
+          "quote": "what was tested, what passed, and any relevant untested condition",
+          "kind": "caveat-replacement-advice",
+          "reason": "建议在只问已验证内容的答复中继续加入未验证条件。"
+        }
+      ]
+    },
+    {
+      "case_id": "blame-impression-en",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "blame-impression-zh",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": [
+        {
+          "quote": "尚未验证真实环境下的并发场景；目前验证范围是单测层面。",
+          "kind": "caveat-replacement-advice",
+          "reason": "示例凭空增加生产并发未验证提醒，原问题只问已验证内容。"
+        }
+      ]
+    },
+    {
+      "case_id": "blame-impression-zh",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": [
+        {
+          "quote": "——具体内容应按实际做过的验证填写。",
+          "kind": "template-qualification",
+          "reason": "例子后的额外核验提醒仍残留，按宽口径计入。"
+        }
+      ]
+    },
+    {
+      "case_id": "csv-summary",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "artifact_contract_passed": true
+    },
+    {
+      "case_id": "csv-summary",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "artifact_contract_passed": true
+    },
+    {
+      "case_id": "decision-risk-zh",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "accuracy_control_passed": true
+    },
+    {
+      "case_id": "decision-risk-zh",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "accuracy_control_passed": true
+    },
+    {
+      "case_id": "demo-success-en",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "demo-success-en",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "demo-success-zh",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "demo-success-zh",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "fixed-feature-zh",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "fixed-feature-zh",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "necessary-correction-zh",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "accuracy_control_passed": true
+    },
+    {
+      "case_id": "necessary-correction-zh",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "accuracy_control_passed": true
+    },
+    {
+      "case_id": "persistent-todo",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "artifact_contract_passed": true
+    },
+    {
+      "case_id": "persistent-todo",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "artifact_contract_passed": true
+    },
+    {
+      "case_id": "quote-analysis-en",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "accuracy_control_passed": true
+    },
+    {
+      "case_id": "quote-analysis-en",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "accuracy_control_passed": true
+    },
+    {
+      "case_id": "ratio-fix",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "artifact_contract_passed": true
+    },
+    {
+      "case_id": "ratio-fix",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "artifact_contract_passed": true
+    },
+    {
+      "case_id": "repeat-permission-en",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "repeat-permission-en",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "repeat-permission-zh",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "repeat-permission-zh",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "resolved-sample-en",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "resolved-sample-en",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "resolved-sample-zh",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "resolved-sample-zh",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "rewrite-speed-en",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "rewrite-speed-en",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "rewrite-speed-zh",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "rewrite-speed-zh",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "rewrite-tests-en",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "rewrite-tests-en",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "rewrite-tests-zh",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "rewrite-tests-zh",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "run-speed-en",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "run-speed-en",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "run-speed-zh",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": [
+        {
+          "quote": "整体收益还需结合多次测试结果评估。",
+          "kind": "scope-reminder",
+          "reason": "用户只讨论本次请求，未询问整体收益。"
+        }
+      ]
+    },
+    {
+      "case_id": "run-speed-zh",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "some-defensive-en",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "some-defensive-en",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "some-defensive-zh",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "some-defensive-zh",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "stable-dedup",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "artifact_contract_passed": true
+    },
+    {
+      "case_id": "stable-dedup",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "artifact_contract_passed": true
+    },
+    {
+      "case_id": "unasked-all-paths-zh",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": [
+        {
+          "quote": "当前路径已通过；并发写入这条路径还没测。",
+          "kind": "caveat-replacement-advice",
+          "reason": "又建议用未提供的并发路径替代原先无关的全场景防御句。"
+        }
+      ]
+    },
+    {
+      "case_id": "unasked-all-paths-zh",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "verification-gap-en",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "accuracy_control_passed": true
+    },
+    {
+      "case_id": "verification-gap-en",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": false,
+      "requested_content_retained": true,
+      "unnecessary_additions": [],
+      "accuracy_control_passed": true
+    },
+    {
+      "case_id": "verified-cases-en",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "verified-cases-en",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "verified-cases-zh",
+      "repeat": 2,
+      "variant": "previous",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    },
+    {
+      "case_id": "verified-cases-zh",
+      "repeat": 2,
+      "variant": "upgraded",
+      "focal": true,
+      "requested_content_retained": true,
+      "unnecessary_additions": []
+    }
+  ]
+}

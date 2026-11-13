@@ -1,4 +1,4 @@
 interface:
   display_name: "Constraint Exec"
-  short_description: "Prevent constraints from replacing the primary objective"
-  default_prompt: "Use $constraint-exec to complete this task without over-optimizing its constraints."
+  short_description: "Finish tasks with direct answers and proportionate checks"
+  default_prompt: "Use $constraint-exec to complete this task with direct answers, minimal defensive caveats, and working changes verified with relevant checks."

@@ -1,0 +1,1699 @@
+{
+  "created_at": "2026-11-09T04:21:03.456336+00:00",
+  "model": "gpt-6.1-sol",
+  "transport": "responses-public-transcript-v1",
+  "runner_hash": "c2a74eb102c2e9d30c1dbba885b4800f09594611d53a6b9e567e189a0137e064",
+  "fixtures_hash": "8032d7bdc79537fb184f6853348615a0725779464b64ababfa3c2f5e98afa10c",
+  "reasoning_effort": "medium",
+  "verbosity": "low",
+  "repeats": 2,
+  "expected_rows": 64,
+  "endpoint_hash": "cb77cd9befdb6c60d012596374c619d87d60edf8b8c1527451a355031049f820",
+  "semantic_review": "complete_single_manual_reviewer",
+  "results": [
+    {
+      "case_id": "api-200-en",
+      "variant": "rc10",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "d2554083365b7726a097b10c6c17c15c4e742447f4d06b75ab8ac9ece876f26e",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 203,
+        "output_tokens": 23
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 2.927
+    },
+    {
+      "case_id": "api-200-en",
+      "variant": "upgraded",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "d2554083365b7726a097b10c6c17c15c4e742447f4d06b75ab8ac9ece876f26e",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 341,
+        "output_tokens": 23
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 3.483
+    },
+    {
+      "case_id": "api-200-zh",
+      "variant": "rc10",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "e4a5bb2d766cf2d4fb29e696233afc024ea4d43e01fc1207206a69c04586d2a7",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 208,
+        "output_tokens": 22
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 3.04
+    },
+    {
+      "case_id": "api-200-zh",
+      "variant": "upgraded",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "e4a5bb2d766cf2d4fb29e696233afc024ea4d43e01fc1207206a69c04586d2a7",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 346,
+        "output_tokens": 26
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 2.589
+    },
+    {
+      "case_id": "complete-code-en",
+      "variant": "rc10",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "de0354775d12bdfb38b0ca8cb369ce371993057479b4523bde626975d8b87da9",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 218,
+        "output_tokens": 165
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 5.427
+    },
+    {
+      "case_id": "complete-code-en",
+      "variant": "upgraded",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "de0354775d12bdfb38b0ca8cb369ce371993057479b4523bde626975d8b87da9",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 356,
+        "output_tokens": 224
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 8.588
+    },
+    {
+      "case_id": "csv-summary",
+      "variant": "rc10",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "1896ad5f4a6df2c55af692b5a439e08aa6df187dc94a82a41ca275584d17c754",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 4,
+      "returned_models": [
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 1953,
+        "output_tokens": 316
+      },
+      "tool_trace": [
+        {
+          "name": "read_file",
+          "result": {
+            "content": "SENTINEL = \"user edit: keep me\"\n\ndef summarize(text):\n    return {}\n"
+          }
+        },
+        {
+          "name": "write_file",
+          "result": {
+            "written": "app.py"
+          }
+        },
+        {
+          "name": "run_checks",
+          "result": {
+            "passed": true,
+            "output": "test_empty (test_contract.Contract.test_empty) ... ok\ntest_sum (test_contract.Contract.test_sum) ... ok\ntest_unicode (test_contract.Contract.test_unicode) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+          }
+        }
+      ],
+      "artifact_checks": {
+        "passed": true,
+        "output": "test_empty (test_contract.Contract.test_empty) ... ok\ntest_sum (test_contract.Contract.test_sum) ... ok\ntest_unicode (test_contract.Contract.test_unicode) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+      },
+      "file_changed": true,
+      "model_ran_checks": true,
+      "elapsed_seconds": 30.969
+    },
+    {
+      "case_id": "csv-summary",
+      "variant": "upgraded",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "1896ad5f4a6df2c55af692b5a439e08aa6df187dc94a82a41ca275584d17c754",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 4,
+      "returned_models": [
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 2507,
+        "output_tokens": 238
+      },
+      "tool_trace": [
+        {
+          "name": "read_file",
+          "result": {
+            "content": "SENTINEL = \"user edit: keep me\"\n\ndef summarize(text):\n    return {}\n"
+          }
+        },
+        {
+          "name": "write_file",
+          "result": {
+            "written": "app.py"
+          }
+        },
+        {
+          "name": "run_checks",
+          "result": {
+            "passed": true,
+            "output": "test_empty (test_contract.Contract.test_empty) ... ok\ntest_sum (test_contract.Contract.test_sum) ... ok\ntest_unicode (test_contract.Contract.test_unicode) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+          }
+        }
+      ],
+      "artifact_checks": {
+        "passed": true,
+        "output": "test_empty (test_contract.Contract.test_empty) ... ok\ntest_sum (test_contract.Contract.test_sum) ... ok\ntest_unicode (test_contract.Contract.test_unicode) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+      },
+      "file_changed": true,
+      "model_ran_checks": true,
+      "elapsed_seconds": 13.178
+    },
+    {
+      "case_id": "decision-risk-zh",
+      "variant": "rc10",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "25dbf0641cdac1337eff4129a06f44692e104f43538ed1eaab5a139a258ab61d",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 200,
+        "output_tokens": 209
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 8.08
+    },
+    {
+      "case_id": "decision-risk-zh",
+      "variant": "upgraded",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "25dbf0641cdac1337eff4129a06f44692e104f43538ed1eaab5a139a258ab61d",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 338,
+        "output_tokens": 197
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 7.994
+    },
+    {
+      "case_id": "necessary-correction-zh",
+      "variant": "rc10",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "8c5ffc0181349e51128614b8fc2ca96a5c2b06369102da8498e2ff1433a84383",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 203,
+        "output_tokens": 29
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 51.735
+    },
+    {
+      "case_id": "necessary-correction-zh",
+      "variant": "upgraded",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "8c5ffc0181349e51128614b8fc2ca96a5c2b06369102da8498e2ff1433a84383",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 341,
+        "output_tokens": 40
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 2.968
+    },
+    {
+      "case_id": "no-strawman-en",
+      "variant": "rc10",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "41e55cf13e9dacf1c41221c7e48c851a496271cfa963d3f1aa48773a98df5c98",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 198,
+        "output_tokens": 42
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 4.044
+    },
+    {
+      "case_id": "no-strawman-en",
+      "variant": "upgraded",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "41e55cf13e9dacf1c41221c7e48c851a496271cfa963d3f1aa48773a98df5c98",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 336,
+        "output_tokens": 57
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 3.873
+    },
+    {
+      "case_id": "no-strawman-zh",
+      "variant": "rc10",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "ff70c3267129abbd9e7de2839235f5b09761dbe68776208161f3bf1c9ffe9eb5",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 211,
+        "output_tokens": 35
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 3.22
+    },
+    {
+      "case_id": "no-strawman-zh",
+      "variant": "upgraded",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "ff70c3267129abbd9e7de2839235f5b09761dbe68776208161f3bf1c9ffe9eb5",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 349,
+        "output_tokens": 49
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 3.8
+    },
+    {
+      "case_id": "persistent-todo",
+      "variant": "rc10",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "e74521885c1f05884be8f9035b28b90d33e91e4c0c1294eb01bc7663eb3e2485",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 4,
+      "returned_models": [
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 2067,
+        "output_tokens": 257
+      },
+      "tool_trace": [
+        {
+          "name": "read_file",
+          "result": {
+            "content": "import json\nfrom pathlib import Path\n\nSENTINEL = \"user edit: keep me\"\n\ndef save_items(path, items):\n    pass\n\ndef load_items(path):\n    return []\n"
+          }
+        },
+        {
+          "name": "write_file",
+          "result": {
+            "written": "app.py"
+          }
+        },
+        {
+          "name": "run_checks",
+          "result": {
+            "passed": true,
+            "output": "test_bad_json (test_contract.Contract.test_bad_json) ... ok\ntest_missing (test_contract.Contract.test_missing) ... ok\ntest_roundtrip (test_contract.Contract.test_roundtrip) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.001s\n\nOK\n"
+          }
+        }
+      ],
+      "artifact_checks": {
+        "passed": true,
+        "output": "test_bad_json (test_contract.Contract.test_bad_json) ... ok\ntest_missing (test_contract.Contract.test_missing) ... ok\ntest_roundtrip (test_contract.Contract.test_roundtrip) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.001s\n\nOK\n"
+      },
+      "file_changed": true,
+      "model_ran_checks": true,
+      "elapsed_seconds": 23.626
+    },
+    {
+      "case_id": "persistent-todo",
+      "variant": "upgraded",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "e74521885c1f05884be8f9035b28b90d33e91e4c0c1294eb01bc7663eb3e2485",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 4,
+      "returned_models": [
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 2619,
+        "output_tokens": 263
+      },
+      "tool_trace": [
+        {
+          "name": "read_file",
+          "result": {
+            "content": "import json\nfrom pathlib import Path\n\nSENTINEL = \"user edit: keep me\"\n\ndef save_items(path, items):\n    pass\n\ndef load_items(path):\n    return []\n"
+          }
+        },
+        {
+          "name": "write_file",
+          "result": {
+            "written": "app.py"
+          }
+        },
+        {
+          "name": "run_checks",
+          "result": {
+            "passed": true,
+            "output": "test_bad_json (test_contract.Contract.test_bad_json) ... ok\ntest_missing (test_contract.Contract.test_missing) ... ok\ntest_roundtrip (test_contract.Contract.test_roundtrip) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.001s\n\nOK\n"
+          }
+        }
+      ],
+      "artifact_checks": {
+        "passed": true,
+        "output": "test_bad_json (test_contract.Contract.test_bad_json) ... ok\ntest_missing (test_contract.Contract.test_missing) ... ok\ntest_roundtrip (test_contract.Contract.test_roundtrip) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.001s\n\nOK\n"
+      },
+      "file_changed": true,
+      "model_ran_checks": true,
+      "elapsed_seconds": 21.61
+    },
+    {
+      "case_id": "quote-analysis-en",
+      "variant": "rc10",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "f2365b471c9209dea07a97d87215218aa2b2143c189b91c5d55d49dc49de91b0",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 197,
+        "output_tokens": 51
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 11.579
+    },
+    {
+      "case_id": "quote-analysis-en",
+      "variant": "upgraded",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "f2365b471c9209dea07a97d87215218aa2b2143c189b91c5d55d49dc49de91b0",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 335,
+        "output_tokens": 37
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 3.663
+    },
+    {
+      "case_id": "ratio-fix",
+      "variant": "rc10",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "72b1ddac3caceb1523cbe94e7ec137e44b7eb138eac8f210df29c8b96c277ebe",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 4,
+      "returned_models": [
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 1785,
+        "output_tokens": 151
+      },
+      "tool_trace": [
+        {
+          "name": "read_file",
+          "result": {
+            "content": "SENTINEL = \"user edit: keep me\"\n\ndef ratio(part, total):\n    return part / total\n"
+          }
+        },
+        {
+          "name": "write_file",
+          "result": {
+            "written": "app.py"
+          }
+        },
+        {
+          "name": "run_checks",
+          "result": {
+            "passed": true,
+            "output": "test_negative (test_contract.Contract.test_negative) ... ok\ntest_normal (test_contract.Contract.test_normal) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\ntest_zero (test_contract.Contract.test_zero) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+          }
+        }
+      ],
+      "artifact_checks": {
+        "passed": true,
+        "output": "test_negative (test_contract.Contract.test_negative) ... ok\ntest_normal (test_contract.Contract.test_normal) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\ntest_zero (test_contract.Contract.test_zero) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+      },
+      "file_changed": true,
+      "model_ran_checks": true,
+      "elapsed_seconds": 11.019
+    },
+    {
+      "case_id": "ratio-fix",
+      "variant": "upgraded",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "72b1ddac3caceb1523cbe94e7ec137e44b7eb138eac8f210df29c8b96c277ebe",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 4,
+      "returned_models": [
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 2337,
+        "output_tokens": 153
+      },
+      "tool_trace": [
+        {
+          "name": "read_file",
+          "result": {
+            "content": "SENTINEL = \"user edit: keep me\"\n\ndef ratio(part, total):\n    return part / total\n"
+          }
+        },
+        {
+          "name": "write_file",
+          "result": {
+            "written": "app.py"
+          }
+        },
+        {
+          "name": "run_checks",
+          "result": {
+            "passed": true,
+            "output": "test_negative (test_contract.Contract.test_negative) ... ok\ntest_normal (test_contract.Contract.test_normal) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\ntest_zero (test_contract.Contract.test_zero) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+          }
+        }
+      ],
+      "artifact_checks": {
+        "passed": true,
+        "output": "test_negative (test_contract.Contract.test_negative) ... ok\ntest_normal (test_contract.Contract.test_normal) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\ntest_zero (test_contract.Contract.test_zero) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+      },
+      "file_changed": true,
+      "model_ran_checks": true,
+      "elapsed_seconds": 11.656
+    },
+    {
+      "case_id": "stable-dedup",
+      "variant": "rc10",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "5ca1bc2af2160af8f9d7a8442f2f258fadfa15a8f623a576ccbca48209b4e762",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 4,
+      "returned_models": [
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 1735,
+        "output_tokens": 123
+      },
+      "tool_trace": [
+        {
+          "name": "read_file",
+          "result": {
+            "content": "SENTINEL = \"user edit: keep me\"\n\ndef dedup(values):\n    return list(set(values))\n"
+          }
+        },
+        {
+          "name": "write_file",
+          "result": {
+            "written": "app.py"
+          }
+        },
+        {
+          "name": "run_checks",
+          "result": {
+            "passed": true,
+            "output": "test_empty (test_contract.Contract.test_empty) ... ok\ntest_immutable (test_contract.Contract.test_immutable) ... ok\ntest_order (test_contract.Contract.test_order) ... ok\ntest_unicode (test_contract.Contract.test_unicode) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.000s\n\nOK\n"
+          }
+        }
+      ],
+      "artifact_checks": {
+        "passed": true,
+        "output": "test_empty (test_contract.Contract.test_empty) ... ok\ntest_immutable (test_contract.Contract.test_immutable) ... ok\ntest_order (test_contract.Contract.test_order) ... ok\ntest_unicode (test_contract.Contract.test_unicode) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.000s\n\nOK\n"
+      },
+      "file_changed": true,
+      "model_ran_checks": true,
+      "elapsed_seconds": 23.092
+    },
+    {
+      "case_id": "stable-dedup",
+      "variant": "upgraded",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "5ca1bc2af2160af8f9d7a8442f2f258fadfa15a8f623a576ccbca48209b4e762",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 4,
+      "returned_models": [
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 2287,
+        "output_tokens": 127
+      },
+      "tool_trace": [
+        {
+          "name": "read_file",
+          "result": {
+            "content": "SENTINEL = \"user edit: keep me\"\n\ndef dedup(values):\n    return list(set(values))\n"
+          }
+        },
+        {
+          "name": "write_file",
+          "result": {
+            "written": "app.py"
+          }
+        },
+        {
+          "name": "run_checks",
+          "result": {
+            "passed": true,
+            "output": "test_empty (test_contract.Contract.test_empty) ... ok\ntest_immutable (test_contract.Contract.test_immutable) ... ok\ntest_order (test_contract.Contract.test_order) ... ok\ntest_unicode (test_contract.Contract.test_unicode) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.000s\n\nOK\n"
+          }
+        }
+      ],
+      "artifact_checks": {
+        "passed": true,
+        "output": "test_empty (test_contract.Contract.test_empty) ... ok\ntest_immutable (test_contract.Contract.test_immutable) ... ok\ntest_order (test_contract.Contract.test_order) ... ok\ntest_unicode (test_contract.Contract.test_unicode) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.000s\n\nOK\n"
+      },
+      "file_changed": true,
+      "model_ran_checks": true,
+      "elapsed_seconds": 10.174
+    },
+    {
+      "case_id": "timing-followup-en",
+      "variant": "rc10",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "de61f0447c008f16c1c442127bd08cd61ae978c3b54b45c75ef5916e59d88c6a",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 233,
+        "output_tokens": 24
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 2.89
+    },
+    {
+      "case_id": "timing-followup-en",
+      "variant": "upgraded",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "de61f0447c008f16c1c442127bd08cd61ae978c3b54b45c75ef5916e59d88c6a",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 371,
+        "output_tokens": 24
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 2.52
+    },
+    {
+      "case_id": "timing-followup-zh",
+      "variant": "rc10",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "745899b03467964765dbde988e1c4a662daaa3046f8b6e5e2dd94de94a20baea",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 232,
+        "output_tokens": 19
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 2.064
+    },
+    {
+      "case_id": "timing-followup-zh",
+      "variant": "upgraded",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "745899b03467964765dbde988e1c4a662daaa3046f8b6e5e2dd94de94a20baea",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 370,
+        "output_tokens": 22
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 2.479
+    },
+    {
+      "case_id": "verification-gap-en",
+      "variant": "rc10",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "57db768fe8c025be563defa2c424230c5627864b7a34c8ce5c8937da46ae9aaa",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 205,
+        "output_tokens": 22
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 3.292
+    },
+    {
+      "case_id": "verification-gap-en",
+      "variant": "upgraded",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "57db768fe8c025be563defa2c424230c5627864b7a34c8ce5c8937da46ae9aaa",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 343,
+        "output_tokens": 23
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 2.652
+    },
+    {
+      "case_id": "verification-gap-zh",
+      "variant": "rc10",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "15e1fcc459fa56b710f5d921d76fdd3d847694ec326ea67879ee101bca602156",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 209,
+        "output_tokens": 26
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 2.584
+    },
+    {
+      "case_id": "verification-gap-zh",
+      "variant": "upgraded",
+      "repeat": 1,
+      "model": "gpt-6.1-sol",
+      "case_hash": "15e1fcc459fa56b710f5d921d76fdd3d847694ec326ea67879ee101bca602156",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 347,
+        "output_tokens": 25
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 2.551
+    },
+    {
+      "case_id": "api-200-en",
+      "variant": "rc10",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "d2554083365b7726a097b10c6c17c15c4e742447f4d06b75ab8ac9ece876f26e",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 203,
+        "output_tokens": 23
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 2.397
+    },
+    {
+      "case_id": "api-200-en",
+      "variant": "upgraded",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "d2554083365b7726a097b10c6c17c15c4e742447f4d06b75ab8ac9ece876f26e",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 341,
+        "output_tokens": 22
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 6.539
+    },
+    {
+      "case_id": "api-200-zh",
+      "variant": "rc10",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "e4a5bb2d766cf2d4fb29e696233afc024ea4d43e01fc1207206a69c04586d2a7",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 208,
+        "output_tokens": 22
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 6.636
+    },
+    {
+      "case_id": "api-200-zh",
+      "variant": "upgraded",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "e4a5bb2d766cf2d4fb29e696233afc024ea4d43e01fc1207206a69c04586d2a7",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 346,
+        "output_tokens": 27
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 2.686
+    },
+    {
+      "case_id": "complete-code-en",
+      "variant": "rc10",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "de0354775d12bdfb38b0ca8cb369ce371993057479b4523bde626975d8b87da9",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 218,
+        "output_tokens": 172
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 5.719
+    },
+    {
+      "case_id": "complete-code-en",
+      "variant": "upgraded",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "de0354775d12bdfb38b0ca8cb369ce371993057479b4523bde626975d8b87da9",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 356,
+        "output_tokens": 223
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 6.494
+    },
+    {
+      "case_id": "csv-summary",
+      "variant": "rc10",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "1896ad5f4a6df2c55af692b5a439e08aa6df187dc94a82a41ca275584d17c754",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 4,
+      "returned_models": [
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 2005,
+        "output_tokens": 258
+      },
+      "tool_trace": [
+        {
+          "name": "read_file",
+          "result": {
+            "content": "SENTINEL = \"user edit: keep me\"\n\ndef summarize(text):\n    return {}\n"
+          }
+        },
+        {
+          "name": "write_file",
+          "result": {
+            "written": "app.py"
+          }
+        },
+        {
+          "name": "run_checks",
+          "result": {
+            "passed": true,
+            "output": "test_empty (test_contract.Contract.test_empty) ... ok\ntest_sum (test_contract.Contract.test_sum) ... ok\ntest_unicode (test_contract.Contract.test_unicode) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+          }
+        }
+      ],
+      "artifact_checks": {
+        "passed": true,
+        "output": "test_empty (test_contract.Contract.test_empty) ... ok\ntest_sum (test_contract.Contract.test_sum) ... ok\ntest_unicode (test_contract.Contract.test_unicode) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+      },
+      "file_changed": true,
+      "model_ran_checks": true,
+      "elapsed_seconds": 13.612
+    },
+    {
+      "case_id": "csv-summary",
+      "variant": "upgraded",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "1896ad5f4a6df2c55af692b5a439e08aa6df187dc94a82a41ca275584d17c754",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 4,
+      "returned_models": [
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 2509,
+        "output_tokens": 233
+      },
+      "tool_trace": [
+        {
+          "name": "read_file",
+          "result": {
+            "content": "SENTINEL = \"user edit: keep me\"\n\ndef summarize(text):\n    return {}\n"
+          }
+        },
+        {
+          "name": "write_file",
+          "result": {
+            "written": "app.py"
+          }
+        },
+        {
+          "name": "run_checks",
+          "result": {
+            "passed": true,
+            "output": "test_empty (test_contract.Contract.test_empty) ... ok\ntest_sum (test_contract.Contract.test_sum) ... ok\ntest_unicode (test_contract.Contract.test_unicode) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+          }
+        }
+      ],
+      "artifact_checks": {
+        "passed": true,
+        "output": "test_empty (test_contract.Contract.test_empty) ... ok\ntest_sum (test_contract.Contract.test_sum) ... ok\ntest_unicode (test_contract.Contract.test_unicode) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+      },
+      "file_changed": true,
+      "model_ran_checks": true,
+      "elapsed_seconds": 30.757
+    },
+    {
+      "case_id": "decision-risk-zh",
+      "variant": "rc10",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "25dbf0641cdac1337eff4129a06f44692e104f43538ed1eaab5a139a258ab61d",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 200,
+        "output_tokens": 198
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 8.832
+    },
+    {
+      "case_id": "decision-risk-zh",
+      "variant": "upgraded",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "25dbf0641cdac1337eff4129a06f44692e104f43538ed1eaab5a139a258ab61d",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 338,
+        "output_tokens": 175
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 7.585
+    },
+    {
+      "case_id": "necessary-correction-zh",
+      "variant": "rc10",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "8c5ffc0181349e51128614b8fc2ca96a5c2b06369102da8498e2ff1433a84383",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 203,
+        "output_tokens": 29
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 2.751
+    },
+    {
+      "case_id": "necessary-correction-zh",
+      "variant": "upgraded",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "8c5ffc0181349e51128614b8fc2ca96a5c2b06369102da8498e2ff1433a84383",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 341,
+        "output_tokens": 40
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 2.793
+    },
+    {
+      "case_id": "no-strawman-en",
+      "variant": "rc10",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "41e55cf13e9dacf1c41221c7e48c851a496271cfa963d3f1aa48773a98df5c98",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 198,
+        "output_tokens": 49
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 9.862
+    },
+    {
+      "case_id": "no-strawman-en",
+      "variant": "upgraded",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "41e55cf13e9dacf1c41221c7e48c851a496271cfa963d3f1aa48773a98df5c98",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 336,
+        "output_tokens": 51
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 3.724
+    },
+    {
+      "case_id": "no-strawman-zh",
+      "variant": "rc10",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "ff70c3267129abbd9e7de2839235f5b09761dbe68776208161f3bf1c9ffe9eb5",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 211,
+        "output_tokens": 44
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 19.747
+    },
+    {
+      "case_id": "no-strawman-zh",
+      "variant": "upgraded",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "ff70c3267129abbd9e7de2839235f5b09761dbe68776208161f3bf1c9ffe9eb5",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 349,
+        "output_tokens": 49
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 17.472
+    },
+    {
+      "case_id": "persistent-todo",
+      "variant": "rc10",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "e74521885c1f05884be8f9035b28b90d33e91e4c0c1294eb01bc7663eb3e2485",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 4,
+      "returned_models": [
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 2067,
+        "output_tokens": 260
+      },
+      "tool_trace": [
+        {
+          "name": "read_file",
+          "result": {
+            "content": "import json\nfrom pathlib import Path\n\nSENTINEL = \"user edit: keep me\"\n\ndef save_items(path, items):\n    pass\n\ndef load_items(path):\n    return []\n"
+          }
+        },
+        {
+          "name": "write_file",
+          "result": {
+            "written": "app.py"
+          }
+        },
+        {
+          "name": "run_checks",
+          "result": {
+            "passed": true,
+            "output": "test_bad_json (test_contract.Contract.test_bad_json) ... ok\ntest_missing (test_contract.Contract.test_missing) ... ok\ntest_roundtrip (test_contract.Contract.test_roundtrip) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.001s\n\nOK\n"
+          }
+        }
+      ],
+      "artifact_checks": {
+        "passed": true,
+        "output": "test_bad_json (test_contract.Contract.test_bad_json) ... ok\ntest_missing (test_contract.Contract.test_missing) ... ok\ntest_roundtrip (test_contract.Contract.test_roundtrip) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.001s\n\nOK\n"
+      },
+      "file_changed": true,
+      "model_ran_checks": true,
+      "elapsed_seconds": 14.216
+    },
+    {
+      "case_id": "persistent-todo",
+      "variant": "upgraded",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "e74521885c1f05884be8f9035b28b90d33e91e4c0c1294eb01bc7663eb3e2485",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 4,
+      "returned_models": [
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 2619,
+        "output_tokens": 259
+      },
+      "tool_trace": [
+        {
+          "name": "read_file",
+          "result": {
+            "content": "import json\nfrom pathlib import Path\n\nSENTINEL = \"user edit: keep me\"\n\ndef save_items(path, items):\n    pass\n\ndef load_items(path):\n    return []\n"
+          }
+        },
+        {
+          "name": "write_file",
+          "result": {
+            "written": "app.py"
+          }
+        },
+        {
+          "name": "run_checks",
+          "result": {
+            "passed": true,
+            "output": "test_bad_json (test_contract.Contract.test_bad_json) ... ok\ntest_missing (test_contract.Contract.test_missing) ... ok\ntest_roundtrip (test_contract.Contract.test_roundtrip) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.001s\n\nOK\n"
+          }
+        }
+      ],
+      "artifact_checks": {
+        "passed": true,
+        "output": "test_bad_json (test_contract.Contract.test_bad_json) ... ok\ntest_missing (test_contract.Contract.test_missing) ... ok\ntest_roundtrip (test_contract.Contract.test_roundtrip) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.001s\n\nOK\n"
+      },
+      "file_changed": true,
+      "model_ran_checks": true,
+      "elapsed_seconds": 14.132
+    },
+    {
+      "case_id": "quote-analysis-en",
+      "variant": "rc10",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "f2365b471c9209dea07a97d87215218aa2b2143c189b91c5d55d49dc49de91b0",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 197,
+        "output_tokens": 53
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 2.819
+    },
+    {
+      "case_id": "quote-analysis-en",
+      "variant": "upgraded",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "f2365b471c9209dea07a97d87215218aa2b2143c189b91c5d55d49dc49de91b0",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 335,
+        "output_tokens": 38
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 2.685
+    },
+    {
+      "case_id": "ratio-fix",
+      "variant": "rc10",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "72b1ddac3caceb1523cbe94e7ec137e44b7eb138eac8f210df29c8b96c277ebe",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 4,
+      "returned_models": [
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 1785,
+        "output_tokens": 152
+      },
+      "tool_trace": [
+        {
+          "name": "read_file",
+          "result": {
+            "content": "SENTINEL = \"user edit: keep me\"\n\ndef ratio(part, total):\n    return part / total\n"
+          }
+        },
+        {
+          "name": "write_file",
+          "result": {
+            "written": "app.py"
+          }
+        },
+        {
+          "name": "run_checks",
+          "result": {
+            "passed": true,
+            "output": "test_negative (test_contract.Contract.test_negative) ... ok\ntest_normal (test_contract.Contract.test_normal) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\ntest_zero (test_contract.Contract.test_zero) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+          }
+        }
+      ],
+      "artifact_checks": {
+        "passed": true,
+        "output": "test_negative (test_contract.Contract.test_negative) ... ok\ntest_normal (test_contract.Contract.test_normal) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\ntest_zero (test_contract.Contract.test_zero) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+      },
+      "file_changed": true,
+      "model_ran_checks": true,
+      "elapsed_seconds": 11.743
+    },
+    {
+      "case_id": "ratio-fix",
+      "variant": "upgraded",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "72b1ddac3caceb1523cbe94e7ec137e44b7eb138eac8f210df29c8b96c277ebe",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 4,
+      "returned_models": [
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 2337,
+        "output_tokens": 153
+      },
+      "tool_trace": [
+        {
+          "name": "read_file",
+          "result": {
+            "content": "SENTINEL = \"user edit: keep me\"\n\ndef ratio(part, total):\n    return part / total\n"
+          }
+        },
+        {
+          "name": "write_file",
+          "result": {
+            "written": "app.py"
+          }
+        },
+        {
+          "name": "run_checks",
+          "result": {
+            "passed": true,
+            "output": "test_negative (test_contract.Contract.test_negative) ... ok\ntest_normal (test_contract.Contract.test_normal) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\ntest_zero (test_contract.Contract.test_zero) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+          }
+        }
+      ],
+      "artifact_checks": {
+        "passed": true,
+        "output": "test_negative (test_contract.Contract.test_negative) ... ok\ntest_normal (test_contract.Contract.test_normal) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\ntest_zero (test_contract.Contract.test_zero) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+      },
+      "file_changed": true,
+      "model_ran_checks": true,
+      "elapsed_seconds": 11.441
+    },
+    {
+      "case_id": "stable-dedup",
+      "variant": "rc10",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "5ca1bc2af2160af8f9d7a8442f2f258fadfa15a8f623a576ccbca48209b4e762",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 4,
+      "returned_models": [
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 1735,
+        "output_tokens": 123
+      },
+      "tool_trace": [
+        {
+          "name": "read_file",
+          "result": {
+            "content": "SENTINEL = \"user edit: keep me\"\n\ndef dedup(values):\n    return list(set(values))\n"
+          }
+        },
+        {
+          "name": "write_file",
+          "result": {
+            "written": "app.py"
+          }
+        },
+        {
+          "name": "run_checks",
+          "result": {
+            "passed": true,
+            "output": "test_empty (test_contract.Contract.test_empty) ... ok\ntest_immutable (test_contract.Contract.test_immutable) ... ok\ntest_order (test_contract.Contract.test_order) ... ok\ntest_unicode (test_contract.Contract.test_unicode) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.000s\n\nOK\n"
+          }
+        }
+      ],
+      "artifact_checks": {
+        "passed": true,
+        "output": "test_empty (test_contract.Contract.test_empty) ... ok\ntest_immutable (test_contract.Contract.test_immutable) ... ok\ntest_order (test_contract.Contract.test_order) ... ok\ntest_unicode (test_contract.Contract.test_unicode) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.000s\n\nOK\n"
+      },
+      "file_changed": true,
+      "model_ran_checks": true,
+      "elapsed_seconds": 11.509
+    },
+    {
+      "case_id": "stable-dedup",
+      "variant": "upgraded",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "5ca1bc2af2160af8f9d7a8442f2f258fadfa15a8f623a576ccbca48209b4e762",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 4,
+      "returned_models": [
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 2287,
+        "output_tokens": 123
+      },
+      "tool_trace": [
+        {
+          "name": "read_file",
+          "result": {
+            "content": "SENTINEL = \"user edit: keep me\"\n\ndef dedup(values):\n    return list(set(values))\n"
+          }
+        },
+        {
+          "name": "write_file",
+          "result": {
+            "written": "app.py"
+          }
+        },
+        {
+          "name": "run_checks",
+          "result": {
+            "passed": true,
+            "output": "test_empty (test_contract.Contract.test_empty) ... ok\ntest_immutable (test_contract.Contract.test_immutable) ... ok\ntest_order (test_contract.Contract.test_order) ... ok\ntest_unicode (test_contract.Contract.test_unicode) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.000s\n\nOK\n"
+          }
+        }
+      ],
+      "artifact_checks": {
+        "passed": true,
+        "output": "test_empty (test_contract.Contract.test_empty) ... ok\ntest_immutable (test_contract.Contract.test_immutable) ... ok\ntest_order (test_contract.Contract.test_order) ... ok\ntest_unicode (test_contract.Contract.test_unicode) ... ok\ntest_user_edit (test_contract.Contract.test_user_edit) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.000s\n\nOK\n"
+      },
+      "file_changed": true,
+      "model_ran_checks": true,
+      "elapsed_seconds": 25.33
+    },
+    {
+      "case_id": "timing-followup-en",
+      "variant": "rc10",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "de61f0447c008f16c1c442127bd08cd61ae978c3b54b45c75ef5916e59d88c6a",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 233,
+        "output_tokens": 24
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 22.366
+    },
+    {
+      "case_id": "timing-followup-en",
+      "variant": "upgraded",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "de61f0447c008f16c1c442127bd08cd61ae978c3b54b45c75ef5916e59d88c6a",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 371,
+        "output_tokens": 24
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 3.176
+    },
+    {
+      "case_id": "timing-followup-zh",
+      "variant": "rc10",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "745899b03467964765dbde988e1c4a662daaa3046f8b6e5e2dd94de94a20baea",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 232,
+        "output_tokens": 22
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 2.515
+    },
+    {
+      "case_id": "timing-followup-zh",
+      "variant": "upgraded",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "745899b03467964765dbde988e1c4a662daaa3046f8b6e5e2dd94de94a20baea",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 370,
+        "output_tokens": 22
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 2.944
+    },
+    {
+      "case_id": "verification-gap-en",
+      "variant": "rc10",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "57db768fe8c025be563defa2c424230c5627864b7a34c8ce5c8937da46ae9aaa",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 205,
+        "output_tokens": 22
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 2.324
+    },
+    {
+      "case_id": "verification-gap-en",
+      "variant": "upgraded",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "57db768fe8c025be563defa2c424230c5627864b7a34c8ce5c8937da46ae9aaa",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 343,
+        "output_tokens": 23
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 2.59
+    },
+    {
+      "case_id": "verification-gap-zh",
+      "variant": "rc10",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "15e1fcc459fa56b710f5d921d76fdd3d847694ec326ea67879ee101bca602156",
+      "instructions_hash": "2f17aaec128f9c766903c4cd5e462b13a725a824f8977d24f0fe12ead4fb901e",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 209,
+        "output_tokens": 26
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 6.075
+    },
+    {
+      "case_id": "verification-gap-zh",
+      "variant": "upgraded",
+      "repeat": 2,
+      "model": "gpt-6.1-sol",
+      "case_hash": "15e1fcc459fa56b710f5d921d76fdd3d847694ec326ea67879ee101bca602156",
+      "instructions_hash": "e4a5986de0ed1a79911de7648155b0fd6e0656a271e4aa6668cd91330bda5834",
+      "success": true,
+      "calls": 1,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "usage": {
+        "input_tokens": 347,
+        "output_tokens": 26
+      },
+      "tool_trace": [],
+      "elapsed_seconds": 4.057
+    }
+  ],
+  "run_status": "completed",
+  "endpoint": "https://api.galaxydata.pro/v1",
+  "credential_source": "independent_environment",
+  "full_release_matrix": "not_run"
+}

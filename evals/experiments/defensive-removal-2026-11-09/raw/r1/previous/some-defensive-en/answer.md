@@ -1,0 +1,1 @@
+Please reduce the reflexive “this doesn’t imply or prove…” paragraphs at the end of answers. They’re exhausting to read and often distract from the actual response. Include caveats when they materially affect how I should understand or use the answer, not as a default disclaimer.

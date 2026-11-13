@@ -1,0 +1,1 @@
+The agent failed to treat your explicit instruction as authorization. It repeatedly asked whether to proceed instead of editing the code, creating an unnecessary approval loop and leaving the requested work undone. It should have proceeded and asked only if a consequential ambiguity or permission boundary arose.

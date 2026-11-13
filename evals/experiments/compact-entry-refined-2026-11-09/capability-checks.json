@@ -1,0 +1,210 @@
+{
+  "P039X": {
+    "case_id": "no-redis-zh",
+    "repeat": 1,
+    "review_packet_id": "P039X",
+    "passed": true,
+    "checks": [
+      "Unicode JSON persistence",
+      "independent reload",
+      "overwrite with empty list",
+      "durable file exists"
+    ],
+    "output": "PASS\n",
+    "source_hash": "29f637496705874df169af7a791f4f8b32a3e74b475c0419300c623d8ac9a4ff"
+  },
+  "P039Y": {
+    "case_id": "no-redis-zh",
+    "repeat": 1,
+    "review_packet_id": "P039Y",
+    "passed": true,
+    "checks": [
+      "Unicode JSON persistence",
+      "independent reload",
+      "overwrite with empty list",
+      "durable file exists"
+    ],
+    "output": "PASS\n",
+    "source_hash": "aaea0ab165973fa9542178af7d641ab6b75731a9c90d9b6723cdf5e9a8f3508c"
+  },
+  "P043X": {
+    "case_id": "required-enforcement-zh",
+    "repeat": 1,
+    "review_packet_id": "P043X",
+    "passed": true,
+    "checks": [
+      "extension rejection",
+      "case insensitivity",
+      "other names accepted",
+      "only function code"
+    ],
+    "output": "PASS\n",
+    "source_hash": "74ecbc9eb8d26aa8647b75e56a08c80023729b859203b7619bcb6d11e9b0c714"
+  },
+  "P043Y": {
+    "case_id": "required-enforcement-zh",
+    "repeat": 1,
+    "review_packet_id": "P043Y",
+    "passed": true,
+    "checks": [
+      "extension rejection",
+      "case insensitivity",
+      "other names accepted",
+      "only function code"
+    ],
+    "output": "PASS\n",
+    "source_hash": "74ecbc9eb8d26aa8647b75e56a08c80023729b859203b7619bcb6d11e9b0c714"
+  },
+  "P048X": {
+    "case_id": "soft-dependency-en",
+    "repeat": 1,
+    "review_packet_id": "P048X",
+    "passed": true,
+    "checks": [
+      "quoted comma parsing",
+      "Unicode category",
+      "repeated category sum",
+      "negative amount",
+      "empty CSV"
+    ],
+    "output": "PASS\n",
+    "source_hash": "ad08a52efa61c90b428db665c82e792a7b6411f92d259d5541e9da911d563f4b"
+  },
+  "P048Y": {
+    "case_id": "soft-dependency-en",
+    "repeat": 1,
+    "review_packet_id": "P048Y",
+    "passed": true,
+    "checks": [
+      "quoted comma parsing",
+      "Unicode category",
+      "repeated category sum",
+      "negative amount",
+      "empty CSV"
+    ],
+    "output": "PASS\n",
+    "source_hash": "99cc1179b839bdeae820da6b7d1463599662afc8d52d2d8fe30cfc4fb5364d05"
+  },
+  "P055X": {
+    "case_id": "exact-format-en",
+    "repeat": 1,
+    "review_packet_id": "P055X",
+    "passed": true,
+    "checks": [
+      "exact JSON object and numeric result"
+    ]
+  },
+  "P055Y": {
+    "case_id": "exact-format-en",
+    "repeat": 1,
+    "review_packet_id": "P055Y",
+    "passed": true,
+    "checks": [
+      "exact JSON object and numeric result"
+    ]
+  },
+  "P087X": {
+    "case_id": "required-enforcement-zh",
+    "repeat": 2,
+    "review_packet_id": "P087X",
+    "passed": true,
+    "checks": [
+      "extension rejection",
+      "case insensitivity",
+      "other names accepted",
+      "only function code"
+    ],
+    "output": "PASS\n",
+    "source_hash": "74ecbc9eb8d26aa8647b75e56a08c80023729b859203b7619bcb6d11e9b0c714"
+  },
+  "P087Y": {
+    "case_id": "required-enforcement-zh",
+    "repeat": 2,
+    "review_packet_id": "P087Y",
+    "passed": true,
+    "checks": [
+      "extension rejection",
+      "case insensitivity",
+      "other names accepted",
+      "only function code"
+    ],
+    "output": "PASS\n",
+    "source_hash": "74ecbc9eb8d26aa8647b75e56a08c80023729b859203b7619bcb6d11e9b0c714"
+  },
+  "P089X": {
+    "case_id": "exact-format-en",
+    "repeat": 2,
+    "review_packet_id": "P089X",
+    "passed": true,
+    "checks": [
+      "exact JSON object and numeric result"
+    ]
+  },
+  "P089Y": {
+    "case_id": "exact-format-en",
+    "repeat": 2,
+    "review_packet_id": "P089Y",
+    "passed": true,
+    "checks": [
+      "exact JSON object and numeric result"
+    ]
+  },
+  "P091X": {
+    "case_id": "soft-dependency-en",
+    "repeat": 2,
+    "review_packet_id": "P091X",
+    "passed": true,
+    "checks": [
+      "quoted comma parsing",
+      "Unicode category",
+      "repeated category sum",
+      "negative amount",
+      "empty CSV"
+    ],
+    "output": "PASS\n",
+    "source_hash": "e4d39680b19a4982959f208c88c8c87ea7f220095c7080aeb4bb0d97b2a1a4f8"
+  },
+  "P091Y": {
+    "case_id": "soft-dependency-en",
+    "repeat": 2,
+    "review_packet_id": "P091Y",
+    "passed": true,
+    "checks": [
+      "quoted comma parsing",
+      "Unicode category",
+      "repeated category sum",
+      "negative amount",
+      "empty CSV"
+    ],
+    "output": "PASS\n",
+    "source_hash": "a2550fb634278e65ad6809e9d444c0bc0a8e4d9c45358cb405642f63b7b3b7db"
+  },
+  "P092X": {
+    "case_id": "no-redis-zh",
+    "repeat": 2,
+    "review_packet_id": "P092X",
+    "passed": true,
+    "checks": [
+      "Unicode JSON persistence",
+      "independent reload",
+      "overwrite with empty list",
+      "durable file exists"
+    ],
+    "output": "PASS\n",
+    "source_hash": "4f45eddd4f24f2d000606f78cf704e4d24521b3e45337c437492caf8a5fe0499"
+  },
+  "P092Y": {
+    "case_id": "no-redis-zh",
+    "repeat": 2,
+    "review_packet_id": "P092Y",
+    "passed": true,
+    "checks": [
+      "Unicode JSON persistence",
+      "independent reload",
+      "overwrite with empty list",
+      "durable file exists"
+    ],
+    "output": "PASS\n",
+    "source_hash": "aaea0ab165973fa9542178af7d641ab6b75731a9c90d9b6723cdf5e9a8f3508c"
+  }
+}

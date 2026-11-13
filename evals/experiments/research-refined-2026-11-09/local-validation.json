@@ -1,0 +1,14 @@
+{
+  "repository_tests": {
+    "passed": 119,
+    "failed": 0
+  },
+  "skill_validator": "passed using system PyYAML",
+  "relative_skill_links": {
+    "checked": 2,
+    "missing": 0
+  },
+  "plaintext_credential_scan": "passed",
+  "entry_characters": 1578,
+  "entry_sha256": "b3de222d2301ee3301829ff3cd84975505ac1a48da192a7699c758ca6b2a24e4"
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "answer": "raw/r1/rc10/complete-code-en/answer.md",
+    "passed": true,
+    "checks": [
+      {
+        "name": "empty",
+        "passed": true,
+        "actual": "0"
+      },
+      {
+        "name": "unicode-and-blanks",
+        "passed": true,
+        "actual": "3"
+      },
+      {
+        "name": "normal",
+        "passed": true,
+        "actual": "2"
+      }
+    ]
+  },
+  {
+    "answer": "raw/r1/upgraded/complete-code-en/answer.md",
+    "passed": true,
+    "checks": [
+      {
+        "name": "empty",
+        "passed": true,
+        "actual": "0"
+      },
+      {
+        "name": "unicode-and-blanks",
+        "passed": true,
+        "actual": "3"
+      },
+      {
+        "name": "normal",
+        "passed": true,
+        "actual": "2"
+      }
+    ]
+  },
+  {
+    "answer": "raw/r2/rc10/complete-code-en/answer.md",
+    "passed": true,
+    "checks": [
+      {
+        "name": "empty",
+        "passed": true,
+        "actual": "0"
+      },
+      {
+        "name": "unicode-and-blanks",
+        "passed": true,
+        "actual": "3"
+      },
+      {
+        "name": "normal",
+        "passed": true,
+        "actual": "2"
+      }
+    ]
+  },
+  {
+    "answer": "raw/r2/upgraded/complete-code-en/answer.md",
+    "passed": true,
+    "checks": [
+      {
+        "name": "empty",
+        "passed": true,
+        "actual": "0"
+      },
+      {
+        "name": "unicode-and-blanks",
+        "passed": true,
+        "actual": "3"
+      },
+      {
+        "name": "normal",
+        "passed": true,
+        "actual": "2"
+      }
+    ]
+  }
+]

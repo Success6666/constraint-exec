@@ -1,0 +1,18 @@
+{
+  "repository_unit_tests": {
+    "passed": 119,
+    "failed": 0
+  },
+  "skill_structure": "passed",
+  "isolated_cross_agent_install_and_content": "passed",
+  "runner_and_contract_script_syntax": "passed",
+  "supplementary_contracts": {
+    "passed": 16,
+    "failed": 0,
+    "packaged_script_fresh_replay": "passed"
+  },
+  "workspace_contracts": {
+    "passed": 16,
+    "failed": 0
+  }
+}

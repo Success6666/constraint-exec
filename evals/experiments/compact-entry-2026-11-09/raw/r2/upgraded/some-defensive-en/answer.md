@@ -1,0 +1,1 @@
+Please stop adding unsolicited paragraphs about what an answer does not imply or prove. These caveats make straightforward responses feel exhausting and cluttered. Answer the question directly, and include qualifications only when they materially affect the answer or I ask for them.

@@ -1,0 +1,1 @@
+Please cut back on unsolicited caveats about what an answer doesn’t imply or prove. These closing paragraphs make straightforward answers feel defensive and exhausting to read. Give the answer directly, and include qualifications only when they materially affect how I should understand or use it.

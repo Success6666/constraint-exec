@@ -1,0 +1,1 @@
+Please stop adding unsolicited paragraphs about what an answer doesn’t imply or prove. These caveats make straightforward answers feel defensive and exhausting to read. Keep responses focused on the question, and include qualifications only when they materially affect the answer or I ask for them.

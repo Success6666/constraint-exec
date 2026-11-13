@@ -1,5 +1,36 @@
 # Changelog
 
+## 0.4.0-rc.11 - 2026-11-13
+
+- Publish the November 9 direct-interaction and cross-source upgrade, with the same Skill files installed in Codex Desktop, Claude Code and Claude Desktop API mode.
+- Put the latest 60-pair Sol regression results ahead of historical data: unnecessary defensive additions 1/38 to 0/38, unsupported facts 2 to 0, total tokens 30,595 to 29,868, and all accuracy, capability and workspace controls passing.
+- Preserve complete outputs and separate results for both rejected candidates; record 180 pairs, 432 calls and 180,559 tokens across three rounds.
+- Add offline evidence verification and publication metadata; retain author-review provenance and unsampled Astra status.
+- Document the inspected Claude Desktop API-mode local storage and bundled-engine discovery separately from Claude Code installation.
+
+### Cross-source transfer (2026-11-09)
+
+- Review seven GitHub projects, six paper abstracts, and official GPT-6 prompting guidance; retain source revisions and hashes.
+- Lead with the requested answer or artifact and preserve substantive findings, useful uncertainty, and real comparisons.
+- Add research-driven examples for negative results, faithful translation, requested limitations, diagnosis-only scope, and existing project conventions.
+- Freeze the preceding compact entry as `compact-v3`; add 14 transfer cases and a 60-case paired comparison with separate semantic, accuracy, capability, workspace and cost records.
+- Reject the first two transfer candidates for defensive or factual regressions; explicitly ground examples in supplied facts without invented checks or completion claims.
+- Keep ordinary use single-generation and references conditional; preserve historical evaluation evidence.
+
+### Direct interaction and coding (2026-11-09)
+
+- Target GPT-6 Astra and GPT-6.1 Sol with shared direct-answer and coding-follow-through rules.
+- Delete unnecessary defensive additions as a whole; paraphrases and hypothetical scope reminders still count as remaining defensiveness.
+- Correct the initial wording-only interpretation and add semantic removal metrics with separate accuracy controls.
+- Preserve resolved context and existing authorization; finish requested implementation with relevant checks.
+- Add linked community research and a paired, Sol-only interaction suite with actual workspace artifacts.
+- Preserve the rc.10 baseline snapshot and historical release results; evaluate the upgrade separately.
+- Freeze the previous removal-based upgrade as removal-v1; target residual authenticity tails after examples and supplied results without inventing extra verification.
+- Extend the Sol comparison with 14 new cases, explicit cohort reporting, and shuffled arm-hidden review packets.
+- Merge and shorten the entrypoint from 2,817 to 1,601 characters; evaluate defensive-content retention and token cost together against the frozen tail-v2 upgrade.
+- Add four capability controls for hard exclusions, soft preferences, required enforcement and exact JSON output.
+- Reject the first 1,444-character compression after semantic regressions; restore the actual-claim and whole-addition-removal rules in a single compact paragraph.
+
 ## 0.4.0-rc.10 - 2026-08-22
 
 - Added direct Responses API A/B execution with one response object per sample and persisted usage and elapsed-time evidence.

@@ -1,0 +1,1 @@
+Please reduce the habit of adding closing paragraphs about what an answer does not imply or prove. These caveats are exhausting to read and often distract from the actual answer. Include them only when they address a meaningful risk or misunderstanding; otherwise, answer the question directly and stop.

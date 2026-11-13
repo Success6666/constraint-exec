@@ -1,0 +1,1 @@
+The agent failed to act on explicit authorization. Instead of editing the code, it repeatedly asked whether to proceed, creating a redundant approval loop that stalled the task and shifted work back to you. It should have made the requested changes and asked only if a consequential ambiguity or missing permission blocked progress.

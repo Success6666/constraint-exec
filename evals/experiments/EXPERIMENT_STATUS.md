@@ -1,3 +1,21 @@
+# Experiment status — publication update 2026-11-13
+
+Latest Skill: `0.4.0-rc.11`. The November 9 Sol interaction evidence contains three complete 60-pair rounds. The first and second candidates were rejected; the final candidate was adopted. The complete model matrix for final `0.4.0` promotion remains incomplete.
+
+| Round | Defense, previous → candidate | Unsupported facts, previous → candidate | Total tokens, previous → candidate | Decision |
+| --- | --- | --- | --- | --- |
+| research-transfer | 1/38 → 4/38 | 3 → 1 | 30,416 → 29,533 | rejected |
+| research-refined | 1/38 → 0/38 | 1 → 3 | 30,544 → 29,603 | rejected |
+| research-grounded | 1/38 → 0/38 | 2 → 0 | 30,595 → 29,868 | adopted |
+
+All three rounds passed 14/14 accuracy controls, 4/4 workspace checks and 4/4 executable capability controls in each arm. Each arm used 72 calls. Review was performed by the author with arm labels masked. Cases became development regression cases after the first pass. Astra was not sampled.
+
+See [publication data](../../research/2026-11-13-publication-data.json) and the [final report](research-grounded-2026-11-09/REPORT.md). Run `python scripts/verify-interaction-evidence.py` to check the saved outputs, annotation hashes, pairing and totals offline.
+
+The following August 17 report is retained as a historical snapshot. Its older published-ab scores do not represent the August 22 or November 9 runs.
+
+---
+
 # Complete Experiment Report
 
 - Status: `incomplete`

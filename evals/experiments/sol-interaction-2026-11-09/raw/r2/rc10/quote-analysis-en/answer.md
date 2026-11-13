@@ -1,0 +1,1 @@
+“It does not prove” means the evidence or argument is insufficient to establish that a claim is true, leaving its truth unresolved. “It is false” means the claim is not true, which is stronger than merely saying it has not been proven.

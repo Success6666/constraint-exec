@@ -1,0 +1,1 @@
+Please reduce the unsolicited caveats at the end of GPT answers explaining what the response does not imply or prove. They’re exhausting to read and often address claims I never made. Answer the question directly, include qualifications only when they materially matter, and stop when the answer is complete.

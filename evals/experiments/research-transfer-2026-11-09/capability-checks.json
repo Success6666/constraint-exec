@@ -1,0 +1,106 @@
+{
+  "research-12P": {
+    "case_id": "exact-format-en",
+    "repeat": 1,
+    "review_packet_id": "research-12P",
+    "passed": true,
+    "checks": [
+      "exact JSON object and numeric result"
+    ]
+  },
+  "research-12Q": {
+    "case_id": "exact-format-en",
+    "repeat": 1,
+    "review_packet_id": "research-12Q",
+    "passed": true,
+    "checks": [
+      "exact JSON object and numeric result"
+    ]
+  },
+  "research-21P": {
+    "case_id": "no-redis-zh",
+    "repeat": 1,
+    "review_packet_id": "research-21P",
+    "passed": true,
+    "checks": [
+      "Unicode JSON persistence",
+      "independent reload",
+      "overwrite with empty list",
+      "durable file exists"
+    ],
+    "output": "PASS\n",
+    "source_hash": "4f45eddd4f24f2d000606f78cf704e4d24521b3e45337c437492caf8a5fe0499"
+  },
+  "research-21Q": {
+    "case_id": "no-redis-zh",
+    "repeat": 1,
+    "review_packet_id": "research-21Q",
+    "passed": true,
+    "checks": [
+      "Unicode JSON persistence",
+      "independent reload",
+      "overwrite with empty list",
+      "durable file exists"
+    ],
+    "output": "PASS\n",
+    "source_hash": "6d4927d3ca1dd7e1fc1f758bd1471f6221caaf24107d3cbb47a12fff3211da6b"
+  },
+  "research-36P": {
+    "case_id": "required-enforcement-zh",
+    "repeat": 1,
+    "review_packet_id": "research-36P",
+    "passed": true,
+    "checks": [
+      "extension rejection",
+      "case insensitivity",
+      "other names accepted",
+      "only function code"
+    ],
+    "output": "PASS\n",
+    "source_hash": "74ecbc9eb8d26aa8647b75e56a08c80023729b859203b7619bcb6d11e9b0c714"
+  },
+  "research-36Q": {
+    "case_id": "required-enforcement-zh",
+    "repeat": 1,
+    "review_packet_id": "research-36Q",
+    "passed": true,
+    "checks": [
+      "extension rejection",
+      "case insensitivity",
+      "other names accepted",
+      "only function code"
+    ],
+    "output": "PASS\n",
+    "source_hash": "74ecbc9eb8d26aa8647b75e56a08c80023729b859203b7619bcb6d11e9b0c714"
+  },
+  "research-43P": {
+    "case_id": "soft-dependency-en",
+    "repeat": 1,
+    "review_packet_id": "research-43P",
+    "passed": true,
+    "checks": [
+      "quoted comma parsing",
+      "Unicode category",
+      "repeated category sum",
+      "negative amount",
+      "empty CSV"
+    ],
+    "output": "PASS\n",
+    "source_hash": "f074ca2e56992e4b7b0ed77eb9bab1e037ce05c43bf4600b7d4419c2c865868f"
+  },
+  "research-43Q": {
+    "case_id": "soft-dependency-en",
+    "repeat": 1,
+    "review_packet_id": "research-43Q",
+    "passed": true,
+    "checks": [
+      "quoted comma parsing",
+      "Unicode category",
+      "repeated category sum",
+      "negative amount",
+      "empty CSV"
+    ],
+    "output": "PASS\n",
+    "source_hash": "6d0df27c9328d3b4d9be9159e518719bb96fe7407df1e618396597186ed4f7f7"
+  }
+}

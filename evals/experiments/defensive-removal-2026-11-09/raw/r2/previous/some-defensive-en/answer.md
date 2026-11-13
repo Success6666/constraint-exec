@@ -1,0 +1,1 @@
+Please reduce the habit of appending unsolicited paragraphs about what an answer “does not imply” or “does not prove.” These caveats make straightforward answers feel repetitive and exhausting to read. Keep qualifications when they address a likely misunderstanding or affect a decision; otherwise, answer directly and stop.

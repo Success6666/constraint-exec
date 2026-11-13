@@ -1,0 +1,950 @@
+{
+  "P001X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P001Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P002X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P002Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P003X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P003Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P004X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P004Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P005X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P005Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P006X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P006Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P007X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P007Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P008X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P008Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P009X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P009Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P010X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P010Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P011X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P011Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P012X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P012Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P013X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P013Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P014X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P014Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P015X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P015Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P016X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P016Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P017X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P017Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，按请求报告事实或分析交互，没有追加防御边界。"
+  },
+  "P018X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答复核；保留所需事实，必要纠错、引用和风险控制正常。"
+  },
+  "P018Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答复核；保留所需事实，必要纠错、引用和风险控制正常。"
+  },
+  "P019X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [
+      {
+        "quote": "若确有影响判断的验证缺口，再具体指出，而不是追加一句放之四海皆准的免责话。",
+        "kind": "caveat-replacement-advice",
+        "reason": "表达分析后仍建议以验证缺口说明替换原免责声明，沿用宽口径计为残留。"
+      }
+    ],
+    "note": "完整回答复核；保留所需事实，必要纠错、引用和风险控制正常。"
+  },
+  "P019Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答复核；保留所需事实，必要纠错、引用和风险控制正常。"
+  },
+  "P020X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答复核；保留所需事实，必要纠错、引用和风险控制正常。"
+  },
+  "P020Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答复核；保留所需事实，必要纠错、引用和风险控制正常。"
+  },
+  "P021X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答复核；保留所需事实，必要纠错、引用和风险控制正常。"
+  },
+  "P021Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答复核；保留所需事实，必要纠错、引用和风险控制正常。"
+  },
+  "P022X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答复核；保留所需事实，必要纠错、引用和风险控制正常。"
+  },
+  "P022Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答复核；保留所需事实，必要纠错、引用和风险控制正常。"
+  },
+  "P023X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答复核；保留所需事实，必要纠错、引用和风险控制正常。"
+  },
+  "P023Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答复核；保留所需事实，必要纠错、引用和风险控制正常。"
+  },
+  "P024X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答复核；保留所需事实，必要纠错、引用和风险控制正常。"
+  },
+  "P024Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答复核；保留所需事实，必要纠错、引用和风险控制正常。"
+  },
+  "P025X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答/源文件复核，示例止于测试结果；实际编程变更、用户改动保留和检查全部通过。"
+  },
+  "P025Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答/源文件复核，示例止于测试结果；实际编程变更、用户改动保留和检查全部通过。"
+  },
+  "P026X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答/源文件复核，示例止于测试结果；实际编程变更、用户改动保留和检查全部通过。"
+  },
+  "P026Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答/源文件复核，示例止于测试结果；实际编程变更、用户改动保留和检查全部通过。"
+  },
+  "P027X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答/源文件复核，示例止于测试结果；实际编程变更、用户改动保留和检查全部通过。"
+  },
+  "P027Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答/源文件复核，示例止于测试结果；实际编程变更、用户改动保留和检查全部通过。"
+  },
+  "P028X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答/源文件复核，示例止于测试结果；实际编程变更、用户改动保留和检查全部通过。"
+  },
+  "P028Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答/源文件复核，示例止于测试结果；实际编程变更、用户改动保留和检查全部通过。"
+  },
+  "P029X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答/源文件复核，示例止于测试结果；实际编程变更、用户改动保留和检查全部通过。"
+  },
+  "P029Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答/源文件复核，示例止于测试结果；实际编程变更、用户改动保留和检查全部通过。"
+  },
+  "P030X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答/源文件复核，示例止于测试结果；实际编程变更、用户改动保留和检查全部通过。"
+  },
+  "P030Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整回答/源文件复核，示例止于测试结果；实际编程变更、用户改动保留和检查全部通过。"
+  },
+  "P031X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，改写删除了无关警告，示例和已有结果没有追加核验条件。"
+  },
+  "P031Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，改写删除了无关警告，示例和已有结果没有追加核验条件。"
+  },
+  "P032X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，改写删除了无关警告，示例和已有结果没有追加核验条件。"
+  },
+  "P032Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，改写删除了无关警告，示例和已有结果没有追加核验条件。"
+  },
+  "P033X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，改写删除了无关警告，示例和已有结果没有追加核验条件。"
+  },
+  "P033Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，改写删除了无关警告，示例和已有结果没有追加核验条件。"
+  },
+  "P034X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，改写删除了无关警告，示例和已有结果没有追加核验条件。"
+  },
+  "P034Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，改写删除了无关警告，示例和已有结果没有追加核验条件。"
+  },
+  "P035X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，改写删除了无关警告，示例和已有结果没有追加核验条件。"
+  },
+  "P035Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，改写删除了无关警告，示例和已有结果没有追加核验条件。"
+  },
+  "P036X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，改写删除了无关警告，示例和已有结果没有追加核验条件。"
+  },
+  "P036Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，改写删除了无关警告，示例和已有结果没有追加核验条件。"
+  },
+  "P037X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，改写删除了无关警告，示例和已有结果没有追加核验条件。"
+  },
+  "P037Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，改写删除了无关警告，示例和已有结果没有追加核验条件。"
+  },
+  "P038X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文/代码复核，结果说明完整，核验及上线问题保留必要限定；JSON持久化和必要扩展名拒绝完整。"
+  },
+  "P038Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文/代码复核，结果说明完整，核验及上线问题保留必要限定；JSON持久化和必要扩展名拒绝完整。"
+  },
+  "P039X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文/代码复核，结果说明完整，核验及上线问题保留必要限定；JSON持久化和必要扩展名拒绝完整。"
+  },
+  "P039Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文/代码复核，结果说明完整，核验及上线问题保留必要限定；JSON持久化和必要扩展名拒绝完整。"
+  },
+  "P040X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文/代码复核，结果说明完整，核验及上线问题保留必要限定；JSON持久化和必要扩展名拒绝完整。"
+  },
+  "P040Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文/代码复核，结果说明完整，核验及上线问题保留必要限定；JSON持久化和必要扩展名拒绝完整。"
+  },
+  "P041X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文/代码复核，结果说明完整，核验及上线问题保留必要限定；JSON持久化和必要扩展名拒绝完整。"
+  },
+  "P041Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文/代码复核，结果说明完整，核验及上线问题保留必要限定；JSON持久化和必要扩展名拒绝完整。"
+  },
+  "P042X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文/代码复核，结果说明完整，核验及上线问题保留必要限定；JSON持久化和必要扩展名拒绝完整。"
+  },
+  "P042Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文/代码复核，结果说明完整，核验及上线问题保留必要限定；JSON持久化和必要扩展名拒绝完整。"
+  },
+  "P043X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文/代码复核，结果说明完整，核验及上线问题保留必要限定；JSON持久化和必要扩展名拒绝完整。"
+  },
+  "P043Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文/代码复核，结果说明完整，核验及上线问题保留必要限定；JSON持久化和必要扩展名拒绝完整。"
+  },
+  "P044X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文/代码复核，结果说明完整，核验及上线问题保留必要限定；JSON持久化和必要扩展名拒绝完整。"
+  },
+  "P044Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文/代码复核，结果说明完整，核验及上线问题保留必要限定；JSON持久化和必要扩展名拒绝完整。"
+  },
+  "P045X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核，给定事实、标准库CSV及JSON格式要求完整，没有不必要防御附加内容。"
+  },
+  "P045Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核，给定事实、标准库CSV及JSON格式要求完整，没有不必要防御附加内容。"
+  },
+  "P046X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核，给定事实、标准库CSV及JSON格式要求完整，没有不必要防御附加内容。"
+  },
+  "P046Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核，给定事实、标准库CSV及JSON格式要求完整，没有不必要防御附加内容。"
+  },
+  "P047X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核，给定事实、标准库CSV及JSON格式要求完整，没有不必要防御附加内容。"
+  },
+  "P047Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核，给定事实、标准库CSV及JSON格式要求完整，没有不必要防御附加内容。"
+  },
+  "P048X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核，给定事实、标准库CSV及JSON格式要求完整，没有不必要防御附加内容。"
+  },
+  "P048Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核，给定事实、标准库CSV及JSON格式要求完整，没有不必要防御附加内容。"
+  },
+  "P049X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核，给定事实、标准库CSV及JSON格式要求完整，没有不必要防御附加内容。"
+  },
+  "P049Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核，给定事实、标准库CSV及JSON格式要求完整，没有不必要防御附加内容。"
+  },
+  "P050X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核，给定事实、标准库CSV及JSON格式要求完整，没有不必要防御附加内容。"
+  },
+  "P050Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核，给定事实、标准库CSV及JSON格式要求完整，没有不必要防御附加内容。"
+  },
+  "P051X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核，给定事实、标准库CSV及JSON格式要求完整，没有不必要防御附加内容。"
+  },
+  "P051Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核，给定事实、标准库CSV及JSON格式要求完整，没有不必要防御附加内容。"
+  },
+  "P052X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核，给定事实、标准库CSV及JSON格式要求完整，没有不必要防御附加内容。"
+  },
+  "P052Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核，给定事实、标准库CSV及JSON格式要求完整，没有不必要防御附加内容。"
+  },
+  "P053X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核，给定事实、标准库CSV及JSON格式要求完整，没有不必要防御附加内容。"
+  },
+  "P053Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核，给定事实、标准库CSV及JSON格式要求完整，没有不必要防御附加内容。"
+  },
+  "P054X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核，给定事实、标准库CSV及JSON格式要求完整，没有不必要防御附加内容。"
+  },
+  "P054Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核，给定事实、标准库CSV及JSON格式要求完整，没有不必要防御附加内容。"
+  },
+  "P055X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核，给定事实、标准库CSV及JSON格式要求完整，没有不必要防御附加内容。"
+  },
+  "P055Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核，给定事实、标准库CSV及JSON格式要求完整，没有不必要防御附加内容。"
+  },
+  "P056X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，保留测试事实、速度差值及用户实际观点；必要纠错正常。"
+  },
+  "P056Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，保留测试事实、速度差值及用户实际观点；必要纠错正常。"
+  },
+  "P057X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，保留测试事实、速度差值及用户实际观点；必要纠错正常。"
+  },
+  "P057Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，保留测试事实、速度差值及用户实际观点；必要纠错正常。"
+  },
+  "P058X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，保留测试事实、速度差值及用户实际观点；必要纠错正常。"
+  },
+  "P058Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，保留测试事实、速度差值及用户实际观点；必要纠错正常。"
+  },
+  "P059X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，保留测试事实、速度差值及用户实际观点；必要纠错正常。"
+  },
+  "P059Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，保留测试事实、速度差值及用户实际观点；必要纠错正常。"
+  },
+  "P060X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，保留测试事实、速度差值及用户实际观点；必要纠错正常。"
+  },
+  "P060Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，保留测试事实、速度差值及用户实际观点；必要纠错正常。"
+  },
+  "P061X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，保留测试事实、速度差值及用户实际观点；必要纠错正常。"
+  },
+  "P061Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，保留测试事实、速度差值及用户实际观点；必要纠错正常。"
+  },
+  "P062X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，保留测试事实、速度差值及用户实际观点；必要纠错正常。"
+  },
+  "P062Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [
+      {
+        "quote": "有具体遗漏再谈具体遗漏，而不是凭空扩大你的主张。",
+        "kind": "caveat-replacement-advice",
+        "reason": "在交互分析收尾主动建议具体遗漏说明，按沿用宽口径计入替换式边界建议。"
+      }
+    ],
+    "note": "完整原文复核，保留测试事实、速度差值及用户实际观点；必要纠错正常。"
+  },
+  "P063X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，保留测试事实、速度差值及用户实际观点；必要纠错正常。"
+  },
+  "P063Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，保留测试事实、速度差值及用户实际观点；必要纠错正常。"
+  },
+  "P064X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，保留测试事实、速度差值及用户实际观点；必要纠错正常。"
+  },
+  "P064Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，保留测试事实、速度差值及用户实际观点；必要纠错正常。"
+  },
+  "P065X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，保留测试事实、速度差值及用户实际观点；必要纠错正常。"
+  },
+  "P065Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，保留测试事实、速度差值及用户实际观点；必要纠错正常。"
+  },
+  "P066X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，保留测试事实、速度差值及用户实际观点；必要纠错正常。"
+  },
+  "P066Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文复核，保留测试事实、速度差值及用户实际观点；必要纠错正常。"
+  },
+  "P067X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [
+      {
+        "quote": "如果确有影响判断的具体缺口，就点明缺口，而不是加一句适用于任何修复的免责声明。",
+        "kind": "caveat-replacement-advice",
+        "reason": "表达分析后仍建议用具体缺口替换原泛化免责声明。"
+      }
+    ],
+    "note": "完整原文及源文件复核，事实与所需任务保留；编程实际变更和检查通过，必要控制准确。"
+  },
+  "P067Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [
+      {
+        "quote": "如果实际只知道“单测通过”，就只报告这一事实，不要虚构覆盖范围，也不必追加免责式结尾。",
+        "kind": "template-qualification",
+        "reason": "在扩展的示例后又提醒按实际已知测试事实填写；示例明确是例子，额外真实性提醒仍计残留。"
+      }
+    ],
+    "note": "完整原文及源文件复核，事实与所需任务保留；编程实际变更和检查通过，必要控制准确。",
+    "extra_verification_details_in_example": [
+      "覆盖了 A、B 场景",
+      "验证了这些场景下修复后的行为符合预期"
+    ]
+  },
+  "P068X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文及源文件复核，事实与所需任务保留；编程实际变更和检查通过，必要控制准确。"
+  },
+  "P068Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文及源文件复核，事实与所需任务保留；编程实际变更和检查通过，必要控制准确。"
+  },
+  "P069X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文及源文件复核，事实与所需任务保留；编程实际变更和检查通过，必要控制准确。"
+  },
+  "P069Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文及源文件复核，事实与所需任务保留；编程实际变更和检查通过，必要控制准确。"
+  },
+  "P070X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文及源文件复核，事实与所需任务保留；编程实际变更和检查通过，必要控制准确。"
+  },
+  "P070Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文及源文件复核，事实与所需任务保留；编程实际变更和检查通过，必要控制准确。"
+  },
+  "P071X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文及源文件复核，事实与所需任务保留；编程实际变更和检查通过，必要控制准确。"
+  },
+  "P071Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文及源文件复核，事实与所需任务保留；编程实际变更和检查通过，必要控制准确。"
+  },
+  "P072X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P072Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P073X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P073Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P074X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P074Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P075X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P075Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P076X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P076Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P077X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P077Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P078X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P078Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P079X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P079Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P080X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P080Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P081X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P081Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P082X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P082Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P083X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P083Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P084X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P084Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P085X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P085Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和源文件复核，改写删除无关范围提醒，测试事实保留；实际编程及相关检查通过。"
+  },
+  "P086X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核；独立核验/上线问题准确，必要拦截、JSON格式、CSV和持久化功能完整。"
+  },
+  "P086Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核；独立核验/上线问题准确，必要拦截、JSON格式、CSV和持久化功能完整。"
+  },
+  "P087X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核；独立核验/上线问题准确，必要拦截、JSON格式、CSV和持久化功能完整。"
+  },
+  "P087Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核；独立核验/上线问题准确，必要拦截、JSON格式、CSV和持久化功能完整。"
+  },
+  "P088X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核；独立核验/上线问题准确，必要拦截、JSON格式、CSV和持久化功能完整。"
+  },
+  "P088Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核；独立核验/上线问题准确，必要拦截、JSON格式、CSV和持久化功能完整。"
+  },
+  "P089X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核；独立核验/上线问题准确，必要拦截、JSON格式、CSV和持久化功能完整。"
+  },
+  "P089Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核；独立核验/上线问题准确，必要拦截、JSON格式、CSV和持久化功能完整。"
+  },
+  "P090X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核；独立核验/上线问题准确，必要拦截、JSON格式、CSV和持久化功能完整。"
+  },
+  "P090Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核；独立核验/上线问题准确，必要拦截、JSON格式、CSV和持久化功能完整。"
+  },
+  "P091X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核；独立核验/上线问题准确，必要拦截、JSON格式、CSV和持久化功能完整。"
+  },
+  "P091Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核；独立核验/上线问题准确，必要拦截、JSON格式、CSV和持久化功能完整。"
+  },
+  "P092X": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核；独立核验/上线问题准确，必要拦截、JSON格式、CSV和持久化功能完整。"
+  },
+  "P092Y": {
+    "requested_content_retained": true,
+    "unnecessary_additions": [],
+    "note": "完整原文和函数代码复核；独立核验/上线问题准确，必要拦截、JSON格式、CSV和持久化功能完整。"
+  }
+}

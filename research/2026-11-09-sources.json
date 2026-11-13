@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-09",
+  "github": [
+    {
+      "repo": "blader/humanizer",
+      "commit": "0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0",
+      "path": "SKILL.md",
+      "url": "https://github.com/blader/humanizer/blob/0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0/SKILL.md",
+      "sha256": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad",
+      "snapshot_matches": true
+    },
+    {
+      "repo": "obra/superpowers",
+      "commit": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "path": "skills/writing-skills/SKILL.md",
+      "url": "https://github.com/obra/superpowers/blob/22f0b463e7a5e579904dd6211a520321035526f7/skills/writing-skills/SKILL.md",
+      "sha256": "8cb3ac68c6d8c4bb46886b998b09af7989643cab8bd0e46ee86dd62e64546bbe",
+      "snapshot_matches": true
+    },
+    {
+      "repo": "obra/superpowers",
+      "commit": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "path": "skills/verification-before-completion/SKILL.md",
+      "url": "https://github.com/obra/superpowers/blob/22f0b463e7a5e579904dd6211a520321035526f7/skills/verification-before-completion/SKILL.md",
+      "sha256": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3",
+      "snapshot_matches": true
+    },
+    {
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "commit": "2c606141936f1eeef17fa3043a72095b4765b9c2",
+      "path": "CLAUDE.md",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/CLAUDE.md",
+      "sha256": "694a2d721e41c385f3db492838c23299826df5ba9809e3b0721aac70021e196a",
+      "snapshot_matches": true
+    },
+    {
+      "repo": "Aider-AI/aider",
+      "commit": "5dc9490bb35f9729ef2c95d00a19ccd30c26339c",
+      "path": "aider/coders/editblock_prompts.py",
+      "url": "https://github.com/Aider-AI/aider/blob/5dc9490bb35f9729ef2c95d00a19ccd30c26339c/aider/coders/editblock_prompts.py",
+      "sha256": "b1a024c3af7450d76500d144f2ae5ef2821cf9f1bcba009f20c4332db3ed9a28",
+      "snapshot_matches": true
+    },
+    {
+      "repo": "anthropics/skills",
+      "commit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+      "path": "skills/skill-creator/SKILL.md",
+      "url": "https://github.com/anthropics/skills/blob/2c5958ecac7cee2b583967a2c4981d0f4a75c579/skills/skill-creator/SKILL.md",
+      "sha256": "dcd4803e61e913e6fc27294184cd3a71f09f5e924ff20c8a9a20173e7b3c2bcf",
+      "snapshot_matches": true
+    },
+    {
+      "repo": "Adkid-Zephyr/anti-defensive-writing-Skill",
+      "commit": "82d31402caa0db1790026824399044538483171b",
+      "path": "skills/anti-defensive-writing/SKILL.md",
+      "url": "https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill/blob/82d31402caa0db1790026824399044538483171b/skills/anti-defensive-writing/SKILL.md",
+      "sha256": "6f072e66f6adf813bc1b4291754f2bc07ed4e65a398359844e97bfa215a1c28e"
+    },
+    {
+      "repo": "Vumb-VibeCoder/ai-anti-overrefusal-skills",
+      "commit": "af5ff8cc5f6576e499368849c6d776232f3a7b80",
+      "path": "skills/no-preachy-tone/SKILL.md",
+      "url": "https://github.com/Vumb-VibeCoder/ai-anti-overrefusal-skills/blob/af5ff8cc5f6576e499368849c6d776232f3a7b80/skills/no-preachy-tone/SKILL.md",
+      "sha256": "9e007f04c44a445505b54e0d29661faa7b7af4c1ed182f3ccc7b45e1b9778450"
+    },
+    {
+      "repo": "Vumb-VibeCoder/ai-anti-overrefusal-skills",
+      "commit": "af5ff8cc5f6576e499368849c6d776232f3a7b80",
+      "path": "skills/plain-expert-answers/SKILL.md",
+      "url": "https://github.com/Vumb-VibeCoder/ai-anti-overrefusal-skills/blob/af5ff8cc5f6576e499368849c6d776232f3a7b80/skills/plain-expert-answers/SKILL.md",
+      "sha256": "24df98176cdd9b8a50c035dc466fe62cd0d269d5bff89ffb12bd74cd4241b56d"
+    }
+  ],
+  "papers": [
+    {
+      "name": "xstest",
+      "url": "https://arxiv.org/abs/2308.01263",
+      "final_url": "https://arxiv.org/abs/2308.01263",
+      "status": 200,
+      "sha256": "03dc1192ab9eedbc8ee7e80e3149c40aff05154158326bc802da827f62d58d01",
+      "bytes": 42427,
+      "title": "XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models",
+      "abstract": "Without proper safeguards, large language models will readily follow malicious instructions and generate toxic content. This risk motivates safety efforts such as red-teaming and large-scale feedback learning, which aim to make models both helpful and harmless. However, there is a tension between these two objectives, since harmlessness requires models to refuse to comply with unsafe prompts, and thus not be helpful. Recent anecdotal evidence suggests that some models may have struck a poor balance, so that even clearly safe prompts are refused if they use similar language to unsafe prompts or mention sensitive topics. In this paper, we introduce a new test suite called XSTest to identify such eXaggerated Safety behaviours in a systematic way. XSTest comprises 250 safe prompts across ten prompt types that well-calibrated models should not refuse to comply with, and 200 unsafe prompts as contrasts that models, for most applications, should refuse. We describe XSTest's creation and composition, and then use the test suite to highlight systematic failure modes in state-of-the-art language models as well as more general challenges in building safer language models.",
+      "read_scope": "arXiv abstract and metadata"
+    },
+    {
+      "name": "followbench",
+      "url": "https://arxiv.org/abs/2310.20410",
+      "final_url": "https://arxiv.org/abs/2310.20410",
+      "status": 200,
+      "sha256": "75fac6a1cb00b3be0e51d3bf3fd425ffe94bbdbe3cb99c56c36a2469d281386c",
+      "bytes": 43021,
+      "title": "FollowBench: A Multi-level Fine-grained Constraints Following Benchmark for Large Language Models",
+      "abstract": "The ability to follow instructions is crucial for Large Language Models (LLMs) to handle various real-world applications. Existing benchmarks primarily focus on evaluating pure response quality, rather than assessing whether the response follows constraints stated in the instruction. To fill this research gap, in this paper, we propose FollowBench, a Multi-level Fine-grained Constraints Following Benchmark for LLMs. FollowBench comprehensively includes five different types (i.e., Content, Situation, Style, Format, and Example) of fine-grained constraints. To enable a precise constraint following estimation on diverse difficulties, we introduce a Multi-level mechanism that incrementally adds a single constraint to the initial instruction at each increased level. To assess whether LLMs' outputs have satisfied every individual constraint, we propose to prompt strong LLMs with constraint-evolution paths to handle challenging open-ended instructions. By evaluating 13 closed-source and open-source popular LLMs on FollowBench, we highlight the weaknesses of LLMs in instruction following and point towards potential avenues for future work. The data and code are publicly available at this https URL.",
+      "read_scope": "arXiv abstract and metadata"
+    },
+    {
+      "name": "ifeval",
+      "url": "https://arxiv.org/abs/2311.07911",
+      "final_url": "https://arxiv.org/abs/2311.07911",
+      "status": 200,
+      "sha256": "90c737e5844073654afca0636e5d230050a10d9188efd3877533f522744aeeaf",
+      "bytes": 42304,
+      "title": "Instruction-Following Evaluation for Large Language Models",
+      "abstract": "One core capability of Large Language Models (LLMs) is to follow natural language instructions. However, the evaluation of such abilities is not standardized: Human evaluations are expensive, slow, and not objectively reproducible, while LLM-based auto-evaluation is potentially biased or limited by the ability of the evaluator LLM. To overcome these issues, we introduce Instruction-Following Eval (IFEval) for large language models. IFEval is a straightforward and easy-to-reproduce evaluation benchmark. It focuses on a set of \"verifiable instructions\" such as \"write in more than 400 words\" and \"mention the keyword of AI at least 3 times\". We identified 25 types of those verifiable instructions and constructed around 500 prompts, with each prompt containing one or more verifiable instructions. We show evaluation results of two widely available LLMs on the market. Our code and data can be found at this https URL",
+      "read_scope": "arXiv abstract and metadata"
+    },
+    {
+      "name": "sycophancy",
+      "url": "https://arxiv.org/abs/2310.13548",
+      "final_url": "https://arxiv.org/abs/2310.13548",
+      "status": 200,
+      "sha256": "3ad9fda5fbb211c30b2e0f7c5e26c13c0db8aa3d3856c52e6ca88f50b9fe4490",
+      "bytes": 45773,
+      "title": "Towards Understanding Sycophancy in Language Models",
+      "abstract": "Human feedback is commonly utilized to finetune AI assistants. But human feedback may also encourage model responses that match user beliefs over truthful ones, a behaviour known as sycophancy. We investigate the prevalence of sycophancy in models whose finetuning procedure made use of human feedback, and the potential role of human preference judgments in such behavior. We first demonstrate that five state-of-the-art AI assistants consistently exhibit sycophancy across four varied free-form text-generation tasks. To understand if human preferences drive this broadly observed behavior, we analyze existing human preference data. We find that when a response matches a user's views, it is more likely to be preferred. Moreover, both humans and preference models (PMs) prefer convincingly-written sycophantic responses over correct ones a non-negligible fraction of the time. Optimizing model outputs against PMs also sometimes sacrifices truthfulness in favor of sycophancy. Overall, our results indicate that sycophancy is a general behavior of state-of-the-art AI assistants, likely driven in part by human preference judgments favoring sycophantic responses.",
+      "read_scope": "arXiv abstract and metadata"
+    },
+    {
+      "name": "self-correct",
+      "url": "https://arxiv.org/abs/2310.01798",
+      "final_url": "https://arxiv.org/abs/2310.01798",
+      "status": 200,
+      "sha256": "b9a6cee520360f2c1b86754737bf469c7d9110545b158f1c59a3197a731e78fa",
+      "bytes": 41575,
+      "title": "Large Language Models Cannot Self-Correct Reasoning Yet",
+      "abstract": "Large Language Models (LLMs) have emerged as a groundbreaking technology with their unparalleled text generation capabilities across various applications. Nevertheless, concerns persist regarding the accuracy and appropriateness of their generated content. A contemporary methodology, self-correction, has been proposed as a remedy to these issues. Building upon this premise, this paper critically examines the role and efficacy of self-correction within LLMs, shedding light on its true potential and limitations. Central to our investigation is the notion of intrinsic self-correction, whereby an LLM attempts to correct its initial responses based solely on its inherent capabilities, without the crutch of external feedback. In the context of reasoning, our research indicates that LLMs struggle to self-correct their responses without external feedback, and at times, their performance even degrades after self-correction. Drawing from these insights, we offer suggestions for future research and practical applications in this field.",
+      "read_scope": "arXiv abstract and metadata"
+    },
+    {
+      "name": "self-refine",
+      "url": "https://arxiv.org/abs/2303.17651",
+      "final_url": "https://arxiv.org/abs/2303.17651",
+      "status": 200,
+      "sha256": "c34cbd3ef22ea0b9c95a8f3ddb430648b2513c21db3e71fd0ad79e54129025a4",
+      "bytes": 43537,
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "abstract": "Like humans, large language models (LLMs) do not always generate the best output on their first try. Motivated by how humans refine their written text, we introduce Self-Refine, an approach for improving initial outputs from LLMs through iterative feedback and refinement. The main idea is to generate an initial output using an LLMs; then, the same LLMs provides feedback for its output and uses it to refine itself, iteratively. Self-Refine does not require any supervised training data, additional training, or reinforcement learning, and instead uses a single LLM as the generator, refiner, and feedback provider. We evaluate Self-Refine across 7 diverse tasks, ranging from dialog response generation to mathematical reasoning, using state-of-the-art (GPT-3.5, ChatGPT, and GPT-4) LLMs. Across all evaluated tasks, outputs generated with Self-Refine are preferred by humans and automatic metrics over those generated with the same LLM using conventional one-step generation, improving by ~20% absolute on average in task performance. Our work demonstrates that even state-of-the-art LLMs like GPT-4 can be further improved at test time using our simple, standalone approach.",
+      "read_scope": "arXiv abstract and metadata"
+    }
+  ],
+  "official": {
+    "name": "openai-guide",
+    "url": "https://developers.openai.com/api/docs/guides/latest-model/gpt-6-astra.md",
+    "final_url": "https://developers.openai.com/api/docs/guides/latest-model/gpt-6-astra.md",
+    "status": 200,
+    "sha256": "746dd4b734bbc9f0221710c3aabaf5ffc4a6e1e03f3538cdbea5bd0a9ec4d828",
+    "bytes": 20183
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "repository_unit_tests": {
+    "passed": 119,
+    "failed": 0
+  },
+  "skill_structure": "passed",
+  "isolated_cross_agent_install_and_content": "passed",
+  "runner_python_syntax": "passed",
+  "candidate_snapshot_matches_skill": "passed",
+  "instruction_and_dataset_hashes": "passed",
+  "zip_integrity": "passed",
+  "packaged_skill_matches_source": "passed",
+  "no_generated_bytecode": "passed",
+  "patch_applies_to_clean_upstream": "passed",
+  "credential_shaped_scan": "no_matches",
+  "programming_contracts": {
+    "passed": 16,
+    "failed": 0
+  }
+}
